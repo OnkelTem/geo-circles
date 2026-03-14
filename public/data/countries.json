@@ -1,0 +1,5207 @@
+{
+  "nodes": [
+    {
+      "id": "IDN_0",
+      "isoA3": "IDN",
+      "iso2": "id",
+      "name": "Indonesia",
+      "continent": "Asia",
+      "area": 213.22171563578618,
+      "population": 270625568,
+      "lat": 4.1063856875,
+      "lng": 117.82965106249999,
+      "color": "#ca9c49"
+    },
+    {
+      "id": "IDN_1",
+      "isoA3": "IDN",
+      "iso2": "id",
+      "name": "Indonesia",
+      "continent": "Asia",
+      "area": 13886.870688838297,
+      "population": 270625568,
+      "lat": -9.604817823045268,
+      "lng": 124.31536427572014,
+      "color": "#ca9c49"
+    },
+    {
+      "id": "IDN_2",
+      "isoA3": "IDN",
+      "iso2": "id",
+      "name": "Indonesia",
+      "continent": "Asia",
+      "area": 532277.5995125585,
+      "population": 270625568,
+      "lat": 0.33525959172564007,
+      "lng": 114.45394057267275,
+      "color": "#ca9c49"
+    },
+    {
+      "id": "IDN_3",
+      "isoA3": "IDN",
+      "iso2": "id",
+      "name": "Indonesia",
+      "continent": "Asia",
+      "area": 383611.5656138751,
+      "population": 270625568,
+      "lat": -3.6111527347145107,
+      "lng": 135.34280166851988,
+      "color": "#ca9c49"
+    },
+    {
+      "id": "MYS_0",
+      "isoA3": "MYS",
+      "iso2": "my",
+      "name": "Malaysia",
+      "continent": "Asia",
+      "area": 213.3467271954894,
+      "population": 31949777,
+      "lat": 4.206971923076923,
+      "lng": 117.77069350000004,
+      "color": "#80d241"
+    },
+    {
+      "id": "MYS_1",
+      "isoA3": "MYS",
+      "iso2": "my",
+      "name": "Malaysia",
+      "continent": "Asia",
+      "area": 131047.65408672855,
+      "population": 31949777,
+      "lat": 4.156734875555555,
+      "lng": 101.90935740740737,
+      "color": "#80d241"
+    },
+    {
+      "id": "MYS_2",
+      "isoA3": "MYS",
+      "iso2": "my",
+      "name": "Malaysia",
+      "continent": "Asia",
+      "area": 195828.16024312004,
+      "population": 31949777,
+      "lat": 3.8732679133646797,
+      "lng": 114.860629216924,
+      "color": "#80d241"
+    },
+    {
+      "id": "CHL_0",
+      "isoA3": "CHL",
+      "iso2": "cl",
+      "name": "Chile",
+      "continent": "South America",
+      "area": 648413.6421103794,
+      "population": 18952038,
+      "lat": -42.78884541646096,
+      "lng": -72.45222487517167,
+      "color": "#41d291"
+    },
+    {
+      "id": "CHL_1",
+      "isoA3": "CHL",
+      "iso2": "cl",
+      "name": "Chile",
+      "continent": "South America",
+      "area": 26443.394550827987,
+      "population": 18952038,
+      "lat": -54.28020371472084,
+      "lng": -70.45970317969548,
+      "color": "#41d291"
+    },
+    {
+      "id": "BOL",
+      "isoA3": "BOL",
+      "iso2": "bo",
+      "name": "Bolivia",
+      "continent": "South America",
+      "area": 1090454.0777339498,
+      "population": 11513100,
+      "lat": -15.553590081208057,
+      "lng": -64.89141069127511,
+      "color": "#96cf26"
+    },
+    {
+      "id": "PER_0",
+      "isoA3": "PER",
+      "iso2": "pe",
+      "name": "Peru",
+      "continent": "South America",
+      "area": 1295066.8616513691,
+      "population": 32510453,
+      "lat": -7.81087341022391,
+      "lng": -74.4071640836502,
+      "color": "#7e37be"
+    },
+    {
+      "id": "ARG_0",
+      "isoA3": "ARG",
+      "iso2": "ar",
+      "name": "Argentina",
+      "continent": "South America",
+      "area": 2761548.3167944727,
+      "population": 44938712,
+      "lat": -36.239090296680075,
+      "lng": -64.63368588509529,
+      "color": "#cf5e26"
+    },
+    {
+      "id": "ARG_1",
+      "isoA3": "ARG",
+      "iso2": "ar",
+      "name": "Argentina",
+      "continent": "South America",
+      "area": 28.233737421461417,
+      "population": 44938712,
+      "lat": -54.84992870000001,
+      "lng": -68.6087532,
+      "color": "#cf5e26"
+    },
+    {
+      "id": "ARG_2",
+      "isoA3": "ARG",
+      "iso2": "ar",
+      "name": "Argentina",
+      "continent": "South America",
+      "area": 20462.902677670267,
+      "population": 44938712,
+      "lat": -54.29150947894734,
+      "lng": -66.92897818947367,
+      "color": "#cf5e26"
+    },
+    {
+      "id": "ESB",
+      "isoA3": "ESB",
+      "name": "Dhekelia Sovereign Base Area",
+      "continent": "Asia",
+      "area": 127.43174698598798,
+      "population": 7850,
+      "lat": 35.02322598095235,
+      "lng": 33.79894620000001,
+      "color": "#37bcbe"
+    },
+    {
+      "id": "CYP_0",
+      "isoA3": "CYP",
+      "iso2": "cy",
+      "name": "Cyprus",
+      "continent": "Asia",
+      "area": 2.077531542121372,
+      "population": 1198575,
+      "lat": 34.982350315789475,
+      "lng": 33.77806426315789,
+      "color": "#5ed241"
+    },
+    {
+      "id": "CYP_1",
+      "isoA3": "CYP",
+      "iso2": "cy",
+      "name": "Cyprus",
+      "continent": "Asia",
+      "area": 1.473558707036735,
+      "population": 1198575,
+      "lat": 35.00772711111111,
+      "lng": 33.74441933333333,
+      "color": "#5ed241"
+    },
+    {
+      "id": "CYP_2",
+      "isoA3": "CYP",
+      "iso2": "cy",
+      "name": "Cyprus",
+      "continent": "Asia",
+      "area": 5198.397570496087,
+      "population": 1198575,
+      "lat": 34.945137855855855,
+      "lng": 33.019303851351324,
+      "color": "#5ed241"
+    },
+    {
+      "id": "CYP_3",
+      "isoA3": "CYP",
+      "iso2": "cy",
+      "name": "Cyprus",
+      "continent": "Asia",
+      "area": 193.57098833222557,
+      "population": 1198575,
+      "lat": 35.018016872340425,
+      "lng": 33.92999917021277,
+      "color": "#5ed241"
+    },
+    {
+      "id": "IND_0",
+      "isoA3": "IND",
+      "iso2": "in",
+      "name": "India",
+      "continent": "Asia",
+      "area": 3150664.009302286,
+      "population": 1366417754,
+      "lat": 22.457430240680416,
+      "lng": 81.37572278239628,
+      "color": "#db39b7"
+    },
+    {
+      "id": "CHN_0",
+      "isoA3": "CHN",
+      "iso2": "cn",
+      "name": "China",
+      "continent": "Asia",
+      "area": 9333973.649279345,
+      "population": 1397715000,
+      "lat": 33.0795857393864,
+      "lng": 110.3669165234974,
+      "color": "#b426cf"
+    },
+    {
+      "id": "ISR",
+      "isoA3": "ISR",
+      "iso2": "il",
+      "name": "Israel",
+      "continent": "Asia",
+      "area": 22119.796546749865,
+      "population": 9053300,
+      "lat": 31.91945651489363,
+      "lng": 35.21293627021278,
+      "color": "#379abe"
+    },
+    {
+      "id": "PSE_0",
+      "isoA3": "PSE",
+      "iso2": "ps",
+      "name": "Palestine",
+      "continent": "Asia",
+      "area": 339.7552636229385,
+      "population": 4685306,
+      "lat": 31.399098884615384,
+      "lng": 34.364831076923075,
+      "color": "#2f83c6"
+    },
+    {
+      "id": "PSE_1",
+      "isoA3": "PSE",
+      "iso2": "ps",
+      "name": "Palestine",
+      "continent": "Asia",
+      "area": 5739.087950296196,
+      "population": 4685306,
+      "lat": 31.959481281553394,
+      "lng": 35.23988501456308,
+      "color": "#2f83c6"
+    },
+    {
+      "id": "LBN",
+      "isoA3": "LBN",
+      "iso2": "lb",
+      "name": "Lebanon",
+      "continent": "Asia",
+      "area": 10007.146606907609,
+      "population": 6855713,
+      "lat": 33.88865306109323,
+      "lng": 35.881989305466256,
+      "color": "#37be7d"
+    },
+    {
+      "id": "ETH",
+      "isoA3": "ETH",
+      "iso2": "et",
+      "name": "Ethiopia",
+      "continent": "Africa",
+      "area": 1132066.3660759663,
+      "population": 112078730,
+      "lat": 9.004502793103436,
+      "lng": 38.57791428331782,
+      "color": "#c6492f"
+    },
+    {
+      "id": "SSD",
+      "isoA3": "SSD",
+      "iso2": "ss",
+      "name": "South Sudan",
+      "continent": "Africa",
+      "area": 629530.3721535073,
+      "population": 11062113,
+      "lat": 6.912646998271393,
+      "lng": 29.757916601555756,
+      "color": "#49ca5d"
+    },
+    {
+      "id": "SOM",
+      "isoA3": "SOM",
+      "iso2": "so",
+      "name": "Somalia",
+      "continent": "Africa",
+      "area": 473871.76794252923,
+      "population": 10192317.3,
+      "lat": 5.929957523238387,
+      "lng": 46.74697846926542,
+      "color": "#d839db"
+    },
+    {
+      "id": "KEN_0",
+      "isoA3": "KEN",
+      "iso2": "ke",
+      "name": "Kenya",
+      "continent": "Africa",
+      "area": 588146.8985489422,
+      "population": 52573973,
+      "lat": 0.338631753309265,
+      "lng": 38.064068685920574,
+      "color": "#ca4957"
+    },
+    {
+      "id": "MWI_0",
+      "isoA3": "MWI",
+      "iso2": "mw",
+      "name": "Malawi",
+      "continent": "Africa",
+      "area": 119648.36840356387,
+      "population": 18628747,
+      "lat": -12.925370727388529,
+      "lng": 34.073348416560506,
+      "color": "#be3799"
+    },
+    {
+      "id": "MWI_1",
+      "isoA3": "MWI",
+      "iso2": "mw",
+      "name": "Malawi",
+      "continent": "Africa",
+      "area": 119.70760897611486,
+      "population": 18628747,
+      "lat": -12.062394333333334,
+      "lng": 34.70863733333333,
+      "color": "#be3799"
+    },
+    {
+      "id": "MWI_2",
+      "isoA3": "MWI",
+      "iso2": "mw",
+      "name": "Malawi",
+      "continent": "Africa",
+      "area": 80.54575928315712,
+      "population": 18628747,
+      "lat": -12.019592666666668,
+      "lng": 34.58920275,
+      "color": "#be3799"
+    },
+    {
+      "id": "TZA_0",
+      "isoA3": "TZA",
+      "iso2": "tz",
+      "name": "United Republic of Tanzania",
+      "continent": "Africa",
+      "area": 942553.808016058,
+      "population": 58005463,
+      "lat": -7.442542120316999,
+      "lng": 35.79143386815568,
+      "color": "#cfb826"
+    },
+    {
+      "id": "SYR",
+      "isoA3": "SYR",
+      "iso2": "sy",
+      "name": "Syria",
+      "continent": "Asia",
+      "area": 185952.14633894854,
+      "population": 17070135,
+      "lat": 34.995634857627124,
+      "lng": 37.36310125932205,
+      "color": "#a037be"
+    },
+    {
+      "id": "SOL",
+      "isoA3": "SOL",
+      "name": "Somaliland",
+      "continent": "Africa",
+      "area": 168093.55847407389,
+      "population": 5096159,
+      "lat": 10.285769490566036,
+      "lng": 45.62204059748431,
+      "color": "#2fc698"
+    },
+    {
+      "id": "FRA_0",
+      "isoA3": "FRA",
+      "name": "France",
+      "continent": "Europe",
+      "area": 83551.7350423862,
+      "population": 67059887,
+      "lat": 3.7435759115226315,
+      "lng": -53.32353747942383,
+      "color": "#2695cf"
+    },
+    {
+      "id": "FRA_1",
+      "isoA3": "FRA",
+      "name": "France",
+      "continent": "Europe",
+      "area": 537329.6210767872,
+      "population": 67059887,
+      "lat": 46.87317580302558,
+      "lng": 1.3829863820405544,
+      "color": "#2695cf"
+    },
+    {
+      "id": "SUR",
+      "isoA3": "SUR",
+      "iso2": "sr",
+      "name": "Suriname",
+      "continent": "South America",
+      "area": 145764.39491493863,
+      "population": 581363,
+      "lat": 4.040415277173913,
+      "lng": -56.001484894021786,
+      "color": "#dbb039"
+    },
+    {
+      "id": "GUY_0",
+      "isoA3": "GUY",
+      "iso2": "gy",
+      "name": "Guyana",
+      "continent": "South America",
+      "area": 212075.69371184515,
+      "population": 782766,
+      "lat": 4.5890711853526245,
+      "lng": -58.883756238698076,
+      "color": "#26cf8b"
+    },
+    {
+      "id": "KOR_0",
+      "isoA3": "KOR",
+      "iso2": "kr",
+      "name": "South Korea",
+      "continent": "Asia",
+      "area": 93693.66179200531,
+      "population": 51709098,
+      "lat": 35.81634044032661,
+      "lng": 127.1483944635678,
+      "color": "#cf2694"
+    },
+    {
+      "id": "PRK_0",
+      "isoA3": "PRK",
+      "iso2": "kp",
+      "name": "North Korea",
+      "continent": "Asia",
+      "area": 122086.63626354985,
+      "population": 25666161,
+      "lat": 40.07599338151361,
+      "lng": 127.01106764516136,
+      "color": "#41d293"
+    },
+    {
+      "id": "MAR",
+      "isoA3": "MAR",
+      "iso2": "ma",
+      "name": "Morocco",
+      "continent": "Africa",
+      "area": 592428.7456411642,
+      "population": 36471769,
+      "lat": 29.560058198428294,
+      "lng": -9.030268164047158,
+      "color": "#be3a37"
+    },
+    {
+      "id": "ESH",
+      "isoA3": "ESH",
+      "iso2": "eh",
+      "name": "Western Sahara",
+      "continent": "Africa",
+      "area": 90696.4057759402,
+      "population": 603253,
+      "lat": 24.50159234146344,
+      "lng": -12.269219299651562,
+      "color": "#d241a7"
+    },
+    {
+      "id": "CRI_0",
+      "isoA3": "CRI",
+      "iso2": "cr",
+      "name": "Costa Rica",
+      "continent": "North America",
+      "area": 51301.954395494766,
+      "population": 5047561,
+      "lat": 9.797528912436555,
+      "lng": -84.2889899352792,
+      "color": "#d24841"
+    },
+    {
+      "id": "NIC_0",
+      "isoA3": "NIC",
+      "iso2": "ni",
+      "name": "Nicaragua",
+      "continent": "North America",
+      "area": 129115.77051739172,
+      "population": 6545502,
+      "lat": 13.173518848244626,
+      "lng": -84.79138020498296,
+      "color": "#41a5d2"
+    },
+    {
+      "id": "NIC_1",
+      "isoA3": "NIC",
+      "iso2": "ni",
+      "name": "Nicaragua",
+      "continent": "North America",
+      "area": 1.1982444350842938,
+      "population": 6545502,
+      "lat": 10.932815272727273,
+      "lng": -83.67535427272728,
+      "color": "#41a5d2"
+    },
+    {
+      "id": "COG",
+      "isoA3": "COG",
+      "iso2": "cg",
+      "name": "Republic of the Congo",
+      "continent": "Africa",
+      "area": 346428.72667895403,
+      "population": 5380508,
+      "lat": -0.7794830074404752,
+      "lng": 14.634146682291663,
+      "color": "#cf8a26"
+    },
+    {
+      "id": "COD_0",
+      "isoA3": "COD",
+      "iso2": "cd",
+      "name": "Democratic Republic of the Congo",
+      "continent": "Africa",
+      "area": 2335303.569236286,
+      "population": 86790567,
+      "lat": -3.2410884336376458,
+      "lng": 23.499024781952308,
+      "color": "#6c41d2"
+    },
+    {
+      "id": "BTN",
+      "isoA3": "BTN",
+      "iso2": "bt",
+      "name": "Bhutan",
+      "continent": "Asia",
+      "area": 40487.614159545585,
+      "population": 763092,
+      "lat": 27.366189846625787,
+      "lng": 90.39280256441714,
+      "color": "#26c0cf"
+    },
+    {
+      "id": "UKR_0",
+      "isoA3": "UKR",
+      "iso2": "ua",
+      "name": "Ukraine",
+      "continent": "Europe",
+      "area": 570003.9197326513,
+      "population": 44385155,
+      "lat": 48.422435728807045,
+      "lng": 30.93322714115842,
+      "color": "#c62f82"
+    },
+    {
+      "id": "BLR",
+      "isoA3": "BLR",
+      "iso2": "by",
+      "name": "Belarus",
+      "continent": "Europe",
+      "area": 206632.09639494133,
+      "population": 9466856,
+      "lat": 53.32070995136513,
+      "lng": 28.314383748293498,
+      "color": "#db8439"
+    },
+    {
+      "id": "NAM",
+      "isoA3": "NAM",
+      "iso2": "na",
+      "name": "Namibia",
+      "continent": "Africa",
+      "area": 824823.9095072015,
+      "population": 2494530,
+      "lat": -21.900254847715736,
+      "lng": 18.289798526226758,
+      "color": "#263ecf"
+    },
+    {
+      "id": "ZAF_0",
+      "isoA3": "ZAF",
+      "iso2": "za",
+      "name": "South Africa",
+      "continent": "Africa",
+      "area": 1221126.8082664965,
+      "population": 58558270,
+      "lat": -28.916729358525366,
+      "lng": 24.26551679539172,
+      "color": "#49ca7e"
+    },
+    {
+      "id": "MAF",
+      "isoA3": "MAF",
+      "iso2": "mf",
+      "name": "Saint Martin",
+      "continent": "North America",
+      "area": 68.49972749916914,
+      "population": 38002,
+      "lat": 18.07827819047619,
+      "lng": -63.081739714285696,
+      "color": "#3965db"
+    },
+    {
+      "id": "SXM",
+      "isoA3": "SXM",
+      "iso2": "sx",
+      "name": "Sint Maarten",
+      "continent": "North America",
+      "area": 23.4328114677177,
+      "population": 40733,
+      "lat": 18.045387375,
+      "lng": -63.0845995,
+      "color": "#c64c2f"
+    },
+    {
+      "id": "OMN_0",
+      "isoA3": "OMN",
+      "iso2": "om",
+      "name": "Oman",
+      "continent": "Asia",
+      "area": 98.38409243106268,
+      "population": 4974986,
+      "lat": 25.266523120000002,
+      "lng": 56.263862360000005,
+      "color": "#93cf26"
+    },
+    {
+      "id": "OMN_1",
+      "isoA3": "OMN",
+      "iso2": "om",
+      "name": "Oman",
+      "continent": "Asia",
+      "area": 1582.3345410481804,
+      "population": 4974986,
+      "lat": 26.114257412621374,
+      "lng": 56.343167970873765,
+      "color": "#93cf26"
+    },
+    {
+      "id": "OMN_2",
+      "isoA3": "OMN",
+      "iso2": "om",
+      "name": "Oman",
+      "continent": "Asia",
+      "area": 309679.61898069776,
+      "population": 4974986,
+      "lat": 20.856469391117493,
+      "lng": 56.73403545128948,
+      "color": "#93cf26"
+    },
+    {
+      "id": "UZB_0",
+      "isoA3": "UZB",
+      "iso2": "uz",
+      "name": "Uzbekistan",
+      "continent": "Asia",
+      "area": 58.24253349990523,
+      "population": 33580650,
+      "lat": 39.94096207692307,
+      "lng": 71.72836553846153,
+      "color": "#be49ca"
+    },
+    {
+      "id": "UZB_1",
+      "isoA3": "UZB",
+      "iso2": "uz",
+      "name": "Uzbekistan",
+      "continent": "Asia",
+      "area": 446722.6485360229,
+      "population": 33580650,
+      "lat": 41.05025254182267,
+      "lng": 66.59193501498117,
+      "color": "#be49ca"
+    },
+    {
+      "id": "UZB_2",
+      "isoA3": "UZB",
+      "iso2": "uz",
+      "name": "Uzbekistan",
+      "continent": "Asia",
+      "area": 399.01596316255484,
+      "population": 33580650,
+      "lat": 39.998350276595744,
+      "lng": 71.09867821276596,
+      "color": "#be49ca"
+    },
+    {
+      "id": "KAZ_0",
+      "isoA3": "KAZ",
+      "iso2": "kz",
+      "name": "Kazakhstan",
+      "continent": "Asia",
+      "area": 2705954.6465315307,
+      "population": 18513930,
+      "lat": 48.11297050477586,
+      "lng": 64.8533110979673,
+      "color": "#266acf"
+    },
+    {
+      "id": "TJK_0",
+      "isoA3": "TJK",
+      "iso2": "tj",
+      "name": "Tajikistan",
+      "continent": "Asia",
+      "area": 30.460654494885187,
+      "population": 9321018,
+      "lat": 40.979937416666665,
+      "lng": 70.598456,
+      "color": "#5f39db"
+    },
+    {
+      "id": "TJK_1",
+      "isoA3": "TJK",
+      "iso2": "tj",
+      "name": "Tajikistan",
+      "continent": "Asia",
+      "area": 141986.58438378156,
+      "population": 9321018,
+      "lat": 38.70625063235295,
+      "lng": 70.70524463235297,
+      "color": "#5f39db"
+    },
+    {
+      "id": "TJK_2",
+      "isoA3": "TJK",
+      "iso2": "tj",
+      "name": "Tajikistan",
+      "continent": "Asia",
+      "area": 119.32553242178736,
+      "population": 9321018,
+      "lat": 39.832396111111116,
+      "lng": 70.59786894444444,
+      "color": "#5f39db"
+    },
+    {
+      "id": "LTU_0",
+      "isoA3": "LTU",
+      "iso2": "lt",
+      "name": "Lithuania",
+      "continent": "Europe",
+      "area": 64508.736101219445,
+      "population": 2786844,
+      "lat": 55.03563284877126,
+      "lng": 24.02347796597354,
+      "color": "#d29241"
+    },
+    {
+      "id": "LTU_1",
+      "isoA3": "LTU",
+      "iso2": "lt",
+      "name": "Lithuania",
+      "continent": "Europe",
+      "area": 132.5094036759303,
+      "population": 2786844,
+      "lat": 55.482348032258045,
+      "lng": 21.074014032258066,
+      "color": "#d29241"
+    },
+    {
+      "id": "BRA_0",
+      "isoA3": "BRA",
+      "iso2": "br",
+      "name": "Brazil",
+      "continent": "South America",
+      "area": 8450170.437375372,
+      "population": 211049527,
+      "lat": -10.75465453162904,
+      "lng": -52.08001292122812,
+      "color": "#4979ca"
+    },
+    {
+      "id": "URY",
+      "isoA3": "URY",
+      "iso2": "uy",
+      "name": "Uruguay",
+      "continent": "South America",
+      "area": 177439.53449333462,
+      "population": 3461734,
+      "lat": -32.61474418696395,
+      "lng": -56.04147197598632,
+      "color": "#3b37be"
+    },
+    {
+      "id": "MNG",
+      "isoA3": "MNG",
+      "iso2": "mn",
+      "name": "Mongolia",
+      "continent": "Asia",
+      "area": 1560553.3307062336,
+      "population": 3225167,
+      "lat": 47.96019634896184,
+      "lng": 102.1898557340924,
+      "color": "#3778be"
+    },
+    {
+      "id": "RUS_0",
+      "isoA3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "continent": "Europe",
+      "area": 16440153.025778946,
+      "population": 144373535,
+      "lat": 60.75008572012934,
+      "lng": 100.3289864289954,
+      "color": "#cf8d26"
+    },
+    {
+      "id": "RUS_1",
+      "isoA3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "continent": "Europe",
+      "area": 13390.623456697598,
+      "population": 144373535,
+      "lat": 54.925932517241385,
+      "lng": 21.339154423645315,
+      "color": "#cf8d26"
+    },
+    {
+      "id": "RUS_2",
+      "isoA3": "RUS",
+      "iso2": "ru",
+      "name": "Russia",
+      "continent": "Europe",
+      "area": 27032.60379218743,
+      "population": 144373535,
+      "lat": 45.274729300236395,
+      "lng": 34.46133784160759,
+      "color": "#cf8d26"
+    },
+    {
+      "id": "CZE",
+      "isoA3": "CZE",
+      "iso2": "cz",
+      "name": "Czechia",
+      "continent": "Europe",
+      "area": 78497.27414091583,
+      "population": 10669709,
+      "lat": 49.913805263843635,
+      "lng": 15.28823403691639,
+      "color": "#3526cf"
+    },
+    {
+      "id": "DEU_0",
+      "isoA3": "DEU",
+      "iso2": "de",
+      "name": "Germany",
+      "continent": "Europe",
+      "area": 354420.91859513975,
+      "population": 83132799,
+      "lat": 51.133738602612844,
+      "lng": 10.331674886641387,
+      "color": "#ca7b49"
+    },
+    {
+      "id": "DEU_1",
+      "isoA3": "DEU",
+      "iso2": "de",
+      "name": "Germany",
+      "continent": "Europe",
+      "area": 372.960393111115,
+      "population": 83132799,
+      "lat": 53.997736965517234,
+      "lng": 13.942255689655173,
+      "color": "#ca7b49"
+    },
+    {
+      "id": "EST_0",
+      "isoA3": "EST",
+      "iso2": "ee",
+      "name": "Estonia",
+      "continent": "Europe",
+      "area": 41403.20881702884,
+      "population": 1326590,
+      "lat": 58.680671466887375,
+      "lng": 25.23128966721857,
+      "color": "#4958ca"
+    },
+    {
+      "id": "LVA",
+      "isoA3": "LVA",
+      "iso2": "lv",
+      "name": "Latvia",
+      "continent": "Europe",
+      "area": 64259.001787293266,
+      "population": 1912789,
+      "lat": 56.908496869003706,
+      "lng": 24.60540361808118,
+      "color": "#ca49b8"
+    },
+    {
+      "id": "NOR_0",
+      "isoA3": "NOR",
+      "name": "Norway",
+      "continent": "Europe",
+      "area": 300323.14874237997,
+      "population": 5347896,
+      "lat": 65.0149747025286,
+      "lng": 13.980784973324933,
+      "color": "#4b2fc6"
+    },
+    {
+      "id": "SWE_0",
+      "isoA3": "SWE",
+      "iso2": "se",
+      "name": "Sweden",
+      "continent": "Europe",
+      "area": 437888.2517118871,
+      "population": 10285453,
+      "lat": 61.17229811603194,
+      "lng": 17.569336899320888,
+      "color": "#67cf26"
+    },
+    {
+      "id": "FIN_0",
+      "isoA3": "FIN",
+      "iso2": "fi",
+      "name": "Finland",
+      "continent": "Europe",
+      "area": 329278.3220491242,
+      "population": 5520314,
+      "lat": 63.5430174722474,
+      "lng": 24.507998140582306,
+      "color": "#39db85"
+    },
+    {
+      "id": "VNM_0",
+      "isoA3": "VNM",
+      "iso2": "vn",
+      "name": "Vietnam",
+      "continent": "Asia",
+      "area": 327901.2754109755,
+      "population": 96462106,
+      "lat": 16.487780853846118,
+      "lng": 106.55430549145277,
+      "color": "#ca9e49"
+    },
+    {
+      "id": "KHM_0",
+      "isoA3": "KHM",
+      "iso2": "kh",
+      "name": "Cambodia",
+      "continent": "Asia",
+      "area": 181491.02378572267,
+      "population": 16486542,
+      "lat": 12.587989861340668,
+      "lng": 104.83444488888863,
+      "color": "#8639db"
+    },
+    {
+      "id": "LUX",
+      "isoA3": "LUX",
+      "iso2": "lu",
+      "name": "Luxembourg",
+      "continent": "Europe",
+      "area": 2599.7836907597325,
+      "population": 619896,
+      "lat": 49.80806169897957,
+      "lng": 6.059559321428572,
+      "color": "#26cfb6"
+    },
+    {
+      "id": "ARE_0",
+      "isoA3": "ARE",
+      "iso2": "ae",
+      "name": "United Arab Emirates",
+      "continent": "Asia",
+      "area": 70529.48640852544,
+      "population": 9770529,
+      "lat": 24.570168630434775,
+      "lng": 54.520369844481564,
+      "color": "#4741d2"
+    },
+    {
+      "id": "ARE_1",
+      "isoA3": "ARE",
+      "iso2": "ae",
+      "name": "United Arab Emirates",
+      "continent": "Asia",
+      "area": 7.2968955794819745,
+      "population": 9770529,
+      "lat": 25.2691785,
+      "lng": 56.272133,
+      "color": "#4741d2"
+    },
+    {
+      "id": "BEL",
+      "isoA3": "BEL",
+      "iso2": "be",
+      "name": "Belgium",
+      "continent": "Europe",
+      "area": 30561.23006968695,
+      "population": 11484055,
+      "lat": 50.51371742194744,
+      "lng": 4.919705731066458,
+      "color": "#83d241"
+    },
+    {
+      "id": "GEO",
+      "isoA3": "GEO",
+      "iso2": "ge",
+      "name": "Georgia",
+      "continent": "Asia",
+      "area": 69462.32840400154,
+      "population": 3720382,
+      "lat": 42.07578948120303,
+      "lng": 43.60307462218046,
+      "color": "#41d2b6"
+    },
+    {
+      "id": "MKD",
+      "isoA3": "MKD",
+      "iso2": "mk",
+      "name": "North Macedonia",
+      "continent": "Europe",
+      "area": 25348.96789753919,
+      "population": 2083459,
+      "lat": 41.579801477900595,
+      "lng": 21.744244436464097,
+      "color": "#4a41d2"
+    },
+    {
+      "id": "ALB",
+      "isoA3": "ALB",
+      "iso2": "al",
+      "name": "Albania",
+      "continent": "Europe",
+      "area": 28298.35105242403,
+      "population": 2854191,
+      "lat": 41.04570782459316,
+      "lng": 20.00014304339963,
+      "color": "#db3990"
+    },
+    {
+      "id": "AZE_0",
+      "isoA3": "AZE",
+      "iso2": "az",
+      "name": "Azerbaijan",
+      "continent": "Asia",
+      "area": 26.77564323725901,
+      "population": 10023318,
+      "lat": 41.0547045,
+      "lng": 44.98939049999999,
+      "color": "#39dbd4"
+    },
+    {
+      "id": "AZE_1",
+      "isoA3": "AZE",
+      "iso2": "az",
+      "name": "Azerbaijan",
+      "continent": "Asia",
+      "area": 81298.07961700109,
+      "population": 10023318,
+      "lat": 40.254456660052874,
+      "lng": 47.628719783068775,
+      "color": "#39dbd4"
+    },
+    {
+      "id": "AZE_2",
+      "isoA3": "AZE",
+      "iso2": "az",
+      "name": "Azerbaijan",
+      "continent": "Asia",
+      "area": 4778.57189539294,
+      "population": 10023318,
+      "lat": 39.35007618421053,
+      "lng": 45.37628785526317,
+      "color": "#39dbd4"
+    },
+    {
+      "id": "AZE_3",
+      "isoA3": "AZE",
+      "iso2": "az",
+      "name": "Azerbaijan",
+      "continent": "Asia",
+      "area": 7.33254525187516,
+      "population": 10023318,
+      "lat": 40.98777700000001,
+      "lng": 45.192246125000004,
+      "color": "#39dbd4"
+    },
+    {
+      "id": "KOS",
+      "isoA3": "KOS",
+      "name": "Kosovo",
+      "continent": "Europe",
+      "area": 10895.055225889328,
+      "population": 1794248,
+      "lat": 42.55725631851855,
+      "lng": 20.88436502592592,
+      "color": "#77ca49"
+    },
+    {
+      "id": "TUR_0",
+      "isoA3": "TUR",
+      "iso2": "tr",
+      "name": "Turkey",
+      "continent": "Asia",
+      "area": 755609.236825152,
+      "population": 83429615,
+      "lat": 38.39112203214156,
+      "lng": 32.8386434371926,
+      "color": "#db393a"
+    },
+    {
+      "id": "TUR_1",
+      "isoA3": "TUR",
+      "iso2": "tr",
+      "name": "Turkey",
+      "continent": "Asia",
+      "area": 23354.9047489263,
+      "population": 83429615,
+      "lat": 41.18357115384613,
+      "lng": 27.23985385425101,
+      "color": "#db393a"
+    },
+    {
+      "id": "ESP_0",
+      "isoA3": "ESP",
+      "iso2": "es",
+      "name": "Spain",
+      "continent": "Europe",
+      "area": 42.724707104676476,
+      "population": 47076781,
+      "lat": 35.896517153846155,
+      "lng": -5.347173923076923,
+      "color": "#6bcf26"
+    },
+    {
+      "id": "ESP_1",
+      "isoA3": "ESP",
+      "iso2": "es",
+      "name": "Spain",
+      "continent": "Europe",
+      "area": 18.09545210597687,
+      "population": 47076781,
+      "lat": 35.29141428571429,
+      "lng": -2.9385280000000003,
+      "color": "#6bcf26"
+    },
+    {
+      "id": "ESP_2",
+      "isoA3": "ESP",
+      "iso2": "es",
+      "name": "Spain",
+      "continent": "Europe",
+      "area": 493684.3626027692,
+      "population": 47076781,
+      "lat": 41.08516647195188,
+      "lng": -4.431768537783952,
+      "color": "#6bcf26"
+    },
+    {
+      "id": "ESP_3",
+      "isoA3": "ESP",
+      "iso2": "es",
+      "name": "Spain",
+      "continent": "Europe",
+      "area": 13.155304696704178,
+      "population": 47076781,
+      "lat": 42.45715118181818,
+      "lng": 1.9736568181818184,
+      "color": "#6bcf26"
+    },
+    {
+      "id": "LAO",
+      "isoA3": "LAO",
+      "iso2": "la",
+      "name": "Laos",
+      "continent": "Asia",
+      "area": 228826.97615776112,
+      "population": 7169455,
+      "lat": 18.290114077840897,
+      "lng": 103.93371193352279,
+      "color": "#db5d39"
+    },
+    {
+      "id": "KGZ",
+      "isoA3": "KGZ",
+      "iso2": "kg",
+      "name": "Kyrgyzstan",
+      "continent": "Asia",
+      "area": 198712.5965282904,
+      "population": 6456900,
+      "lat": 40.97192657820304,
+      "lng": 73.20027754575706,
+      "color": "#2fc64a"
+    },
+    {
+      "id": "ARM_0",
+      "isoA3": "ARM",
+      "iso2": "am",
+      "name": "Armenia",
+      "continent": "Asia",
+      "area": 29519.774213656023,
+      "population": 2957731,
+      "lat": 40.20474011004787,
+      "lng": 45.137468509569366,
+      "color": "#49ca9a"
+    },
+    {
+      "id": "ARM_1",
+      "isoA3": "ARM",
+      "iso2": "am",
+      "name": "Armenia",
+      "continent": "Asia",
+      "area": 35.201500897169545,
+      "population": 2957731,
+      "lat": 40.63812358333333,
+      "lng": 45.504191083333346,
+      "color": "#49ca9a"
+    },
+    {
+      "id": "DNK_0",
+      "isoA3": "DNK",
+      "iso2": "dk",
+      "name": "Denmark",
+      "continent": "Europe",
+      "area": 28488.615228687147,
+      "population": 5818553,
+      "lat": 56.21789955830746,
+      "lng": 9.3717710123839,
+      "color": "#9bbe37"
+    },
+    {
+      "id": "LBY",
+      "isoA3": "LBY",
+      "iso2": "ly",
+      "name": "Libya",
+      "continent": "Africa",
+      "area": 1626531.432447756,
+      "population": 6777452,
+      "lat": 28.501984817905896,
+      "lng": 18.003010567526545,
+      "color": "#becf26"
+    },
+    {
+      "id": "TUN_0",
+      "isoA3": "TUN",
+      "iso2": "tn",
+      "name": "Tunisia",
+      "continent": "Africa",
+      "area": 155999.10157910245,
+      "population": 11694719,
+      "lat": 34.99536632682928,
+      "lng": 9.94506441138211,
+      "color": "#2f5cc6"
+    },
+    {
+      "id": "ROU",
+      "isoA3": "ROU",
+      "iso2": "ro",
+      "name": "Romania",
+      "continent": "Europe",
+      "area": 235805.7422641904,
+      "population": 19356544,
+      "lat": 45.91115030994151,
+      "lng": 25.46299785045949,
+      "color": "#6f41d2"
+    },
+    {
+      "id": "HUN",
+      "isoA3": "HUN",
+      "iso2": "hu",
+      "name": "Hungary",
+      "continent": "Europe",
+      "area": 92946.61445750925,
+      "population": 9769949,
+      "lat": 47.15552410271539,
+      "lng": 19.19193528925619,
+      "color": "#6126cf"
+    },
+    {
+      "id": "SVK",
+      "isoA3": "SVK",
+      "iso2": "sk",
+      "name": "Slovakia",
+      "continent": "Europe",
+      "area": 48308.374878859235,
+      "population": 5454073,
+      "lat": 48.78554547635726,
+      "lng": 19.708731394045547,
+      "color": "#37babe"
+    },
+    {
+      "id": "POL",
+      "isoA3": "POL",
+      "iso2": "pl",
+      "name": "Poland",
+      "continent": "Europe",
+      "area": 312217.91113440535,
+      "population": 37970874,
+      "lat": 51.52029159579272,
+      "lng": 18.864002151014265,
+      "color": "#393cdb"
+    },
+    {
+      "id": "IRL_0",
+      "isoA3": "IRL",
+      "iso2": "ie",
+      "name": "Ireland",
+      "continent": "Europe",
+      "area": 68893.31641293559,
+      "population": 4941444,
+      "lat": 53.32771383451334,
+      "lng": -8.597787556194689,
+      "color": "#cf3626"
+    },
+    {
+      "id": "GBR_0",
+      "isoA3": "GBR",
+      "iso2": "gb",
+      "name": "United Kingdom",
+      "continent": "Europe",
+      "area": 14175.713042913829,
+      "population": 66834405,
+      "lat": 54.51152061884363,
+      "lng": -6.617264357601713,
+      "color": "#be7c37"
+    },
+    {
+      "id": "GBR_1",
+      "isoA3": "GBR",
+      "iso2": "gb",
+      "name": "United Kingdom",
+      "continent": "Europe",
+      "area": 217695.19912546908,
+      "population": 66834405,
+      "lat": 54.52649354101456,
+      "lng": -3.6514717722611962,
+      "color": "#be7c37"
+    },
+    {
+      "id": "GRC_0",
+      "isoA3": "GRC",
+      "iso2": "gr",
+      "name": "Greece",
+      "continent": "Europe",
+      "area": 106604.06556919953,
+      "population": 10716322,
+      "lat": 39.11215559233327,
+      "lng": 22.856654265757403,
+      "color": "#49b8ca"
+    },
+    {
+      "id": "ZMB",
+      "isoA3": "ZMB",
+      "iso2": "zm",
+      "name": "Zambia",
+      "continent": "Africa",
+      "area": 754730.0422527754,
+      "population": 17861030,
+      "lat": -13.088604664897138,
+      "lng": 28.253867591240976,
+      "color": "#992fc6"
+    },
+    {
+      "id": "SLE_0",
+      "isoA3": "SLE",
+      "iso2": "sl",
+      "name": "Sierra Leone",
+      "continent": "Africa",
+      "area": 71287.49846566269,
+      "population": 7813215,
+      "lat": 8.473719650769233,
+      "lng": -12.215240443076931,
+      "color": "#5bd241"
+    },
+    {
+      "id": "GIN",
+      "isoA3": "GIN",
+      "iso2": "gn",
+      "name": "Guinea",
+      "continent": "Africa",
+      "area": 245290.14018265242,
+      "population": 12771246,
+      "lat": 10.140954580823607,
+      "lng": -11.367633403810705,
+      "color": "#db393e"
+    },
+    {
+      "id": "LBR",
+      "isoA3": "LBR",
+      "iso2": "lr",
+      "name": "Liberia",
+      "continent": "Africa",
+      "area": 95709.63999429093,
+      "population": 4937374,
+      "lat": 6.606241123385928,
+      "lng": -8.998805860832134,
+      "color": "#b741d2"
+    },
+    {
+      "id": "CAF",
+      "isoA3": "CAF",
+      "iso2": "cf",
+      "name": "Central African Republic",
+      "continent": "Africa",
+      "area": 620643.721910154,
+      "population": 4745185,
+      "lat": 6.293713893355682,
+      "lng": 21.224514467336693,
+      "color": "#60c62f"
+    },
+    {
+      "id": "SDN_0",
+      "isoA3": "SDN",
+      "iso2": "sd",
+      "name": "Sudan",
+      "continent": "Africa",
+      "area": 1861962.5921201343,
+      "population": 42813238,
+      "lat": 14.958929738421944,
+      "lng": 30.754864641509446,
+      "color": "#3755be"
+    },
+    {
+      "id": "DJI",
+      "isoA3": "DJI",
+      "iso2": "dj",
+      "name": "Djibouti",
+      "continent": "Africa",
+      "area": 21933.873446620975,
+      "population": 973560,
+      "lat": 11.701188173076916,
+      "lng": 42.673902605769214,
+      "color": "#2fc695"
+    },
+    {
+      "id": "ERI_0",
+      "isoA3": "ERI",
+      "iso2": "er",
+      "name": "Eritrea",
+      "continent": "Africa",
+      "area": 122195.67897832784,
+      "population": 6081196,
+      "lat": 14.927821089179549,
+      "lng": 39.73995175743161,
+      "color": "#dbad39"
+    },
+    {
+      "id": "AUT",
+      "isoA3": "AUT",
+      "iso2": "at",
+      "name": "Austria",
+      "continent": "Europe",
+      "area": 83755.91668283503,
+      "population": 8877067,
+      "lat": 47.576167892040296,
+      "lng": 13.56936273650504,
+      "color": "#c6942f"
+    },
+    {
+      "id": "IRQ",
+      "isoA3": "IRQ",
+      "iso2": "iq",
+      "name": "Iraq",
+      "continent": "Asia",
+      "area": 437585.4237094762,
+      "population": 39309783,
+      "lat": 33.989414010714285,
+      "lng": 44.980551148809546,
+      "color": "#962fc6"
+    },
+    {
+      "id": "ITA_0",
+      "isoA3": "ITA",
+      "iso2": "it",
+      "name": "Italy",
+      "continent": "Europe",
+      "area": 250367.6622882576,
+      "population": 60297396,
+      "lat": 43.681732358156054,
+      "lng": 12.221529379939199,
+      "color": "#d24181"
+    },
+    {
+      "id": "CHE",
+      "isoA3": "CHE",
+      "iso2": "ch",
+      "name": "Switzerland",
+      "continent": "Europe",
+      "area": 41325.999888761195,
+      "population": 8574832,
+      "lat": 46.78099433155078,
+      "lng": 8.289332939839568,
+      "color": "#be5937"
+    },
+    {
+      "id": "IRN_0",
+      "isoA3": "IRN",
+      "iso2": "ir",
+      "name": "Iran",
+      "continent": "Asia",
+      "area": 1621651.0097272322,
+      "population": 82913906,
+      "lat": 32.97466397588425,
+      "lng": 52.80585964389057,
+      "color": "#49ca7b"
+    },
+    {
+      "id": "NLD_0",
+      "isoA3": "NLD",
+      "iso2": "nl",
+      "name": "Netherlands",
+      "continent": "Europe",
+      "area": 35540.55824569969,
+      "population": 17332850,
+      "lat": 51.813348755067516,
+      "lng": 5.485401994932428,
+      "color": "#56ca49"
+    },
+    {
+      "id": "NLD_1",
+      "isoA3": "NLD",
+      "iso2": "nl",
+      "name": "Netherlands",
+      "continent": "Europe",
+      "area": 821.6121571422511,
+      "population": 17332850,
+      "lat": 51.319601857142864,
+      "lng": 3.8019125714285718,
+      "color": "#56ca49"
+    },
+    {
+      "id": "LIE",
+      "isoA3": "LIE",
+      "iso2": "li",
+      "name": "Liechtenstein",
+      "continent": "Europe",
+      "area": 136.8770791537944,
+      "population": 38019,
+      "lat": 47.152969142857145,
+      "lng": 9.534313749999997,
+      "color": "#c62f5e"
+    },
+    {
+      "id": "CIV_0",
+      "isoA3": "CIV",
+      "iso2": "ci",
+      "name": "Ivory Coast",
+      "continent": "Africa",
+      "area": 321973.5771713479,
+      "population": 25716544,
+      "lat": 7.464888547588837,
+      "lng": -5.644526079314723,
+      "color": "#b9ca49"
+    },
+    {
+      "id": "CIV_1",
+      "isoA3": "CIV",
+      "iso2": "ci",
+      "name": "Ivory Coast",
+      "continent": "Africa",
+      "area": 64.99721883148288,
+      "population": 25716544,
+      "lat": 5.125968476190477,
+      "lng": -3.184302047619047,
+      "color": "#b9ca49"
+    },
+    {
+      "id": "SRB",
+      "isoA3": "SRB",
+      "iso2": "rs",
+      "name": "Republic of Serbia",
+      "continent": "Europe",
+      "area": 77470.4976338004,
+      "population": 6944975,
+      "lat": 44.23100202768906,
+      "lng": 20.754272944621942,
+      "color": "#cf263d"
+    },
+    {
+      "id": "MLI",
+      "isoA3": "MLI",
+      "iso2": "ml",
+      "name": "Mali",
+      "continent": "Africa",
+      "area": 1256812.7147146713,
+      "population": 19658031,
+      "lat": 14.322979684421544,
+      "lng": -6.119839101947307,
+      "color": "#cf6226"
+    },
+    {
+      "id": "SEN",
+      "isoA3": "SEN",
+      "iso2": "sn",
+      "name": "Senegal",
+      "continent": "Africa",
+      "area": 196942.49161069418,
+      "population": 16296364,
+      "lat": 13.957518506172852,
+      "lng": -14.66563687218592,
+      "color": "#d24b41"
+    },
+    {
+      "id": "NGA_0",
+      "isoA3": "NGA",
+      "iso2": "ng",
+      "name": "Nigeria",
+      "continent": "Africa",
+      "area": 910919.8550846082,
+      "population": 200963599,
+      "lat": 7.65928635863269,
+      "lng": 7.739661719003466,
+      "color": "#bbbe37"
+    },
+    {
+      "id": "BEN",
+      "isoA3": "BEN",
+      "iso2": "bj",
+      "name": "Benin",
+      "continent": "Africa",
+      "area": 116589.95398527454,
+      "population": 11801151,
+      "lat": 9.946351308943086,
+      "lng": 2.3090515398374007,
+      "color": "#2642cf"
+    },
+    {
+      "id": "AGO_0",
+      "isoA3": "AGO",
+      "iso2": "ao",
+      "name": "Angola",
+      "continent": "Africa",
+      "area": 6731.10080931174,
+      "population": 31825295,
+      "lat": -4.963708562043794,
+      "lng": 12.412897233576642,
+      "color": "#8926cf"
+    },
+    {
+      "id": "AGO_1",
+      "isoA3": "AGO",
+      "iso2": "ao",
+      "name": "Angola",
+      "continent": "Africa",
+      "area": 1242623.6072380217,
+      "population": 31825295,
+      "lat": -11.595930917449653,
+      "lng": 17.36156999328859,
+      "color": "#8926cf"
+    },
+    {
+      "id": "HRV_0",
+      "isoA3": "HRV",
+      "iso2": "hr",
+      "name": "Croatia",
+      "continent": "Europe",
+      "area": 51375.42363509248,
+      "population": 4067500,
+      "lat": 45.018160304698945,
+      "lng": 16.247544599853132,
+      "color": "#be3757"
+    },
+    {
+      "id": "HRV_1",
+      "isoA3": "HRV",
+      "iso2": "hr",
+      "name": "Croatia",
+      "continent": "Europe",
+      "area": 748.8040798164103,
+      "population": 4067500,
+      "lat": 42.79652714838709,
+      "lng": 17.777097096774185,
+      "color": "#be3757"
+    },
+    {
+      "id": "SVN",
+      "isoA3": "SVN",
+      "iso2": "si",
+      "name": "Slovenia",
+      "continent": "Europe",
+      "area": 20276.53352916537,
+      "population": 2087946,
+      "lat": 46.13797144594593,
+      "lng": 14.976560832046326,
+      "color": "#d241a4"
+    },
+    {
+      "id": "QAT",
+      "isoA3": "QAT",
+      "iso2": "qa",
+      "name": "Qatar",
+      "continent": "Asia",
+      "area": 11172.811981497805,
+      "population": 2832067,
+      "lat": 25.45521642916666,
+      "lng": 51.17041829999999,
+      "color": "#37be3b"
+    },
+    {
+      "id": "SAU_0",
+      "isoA3": "SAU",
+      "iso2": "sa",
+      "name": "Saudi Arabia",
+      "continent": "Asia",
+      "area": 1925082.8169162318,
+      "population": 34268528,
+      "lat": 24.147355410115157,
+      "lng": 42.9481305428143,
+      "color": "#c62fa9"
+    },
+    {
+      "id": "BWA",
+      "isoA3": "BWA",
+      "iso2": "bw",
+      "name": "Botswana",
+      "continent": "Africa",
+      "area": 580514.9383621494,
+      "population": 2303697,
+      "lat": -22.403486818848208,
+      "lng": 24.57684305759161,
+      "color": "#ca4999"
+    },
+    {
+      "id": "ZWE",
+      "isoA3": "ZWE",
+      "iso2": "zw",
+      "name": "Zimbabwe",
+      "continent": "Africa",
+      "area": 390529.23852730263,
+      "population": 14645468,
+      "lat": -19.025586129411753,
+      "lng": 29.796837094117627,
+      "color": "#dbd939"
+    },
+    {
+      "id": "PAK_0",
+      "isoA3": "PAK",
+      "iso2": "pk",
+      "name": "Pakistan",
+      "continent": "Asia",
+      "area": 873899.9303871383,
+      "population": 216565318,
+      "lat": 29.458163602165754,
+      "lng": 68.94235020715622,
+      "color": "#4977ca"
+    },
+    {
+      "id": "BGR",
+      "isoA3": "BGR",
+      "iso2": "bg",
+      "name": "Bulgaria",
+      "continent": "Europe",
+      "area": 112568.26060487861,
+      "population": 6975761,
+      "lat": 42.49980082687927,
+      "lng": 25.212304641230066,
+      "color": "#ac39db"
+    },
+    {
+      "id": "THA_0",
+      "isoA3": "THA",
+      "iso2": "th",
+      "name": "Thailand",
+      "continent": "Asia",
+      "area": 514337.06275549583,
+      "population": 69625582,
+      "lat": 13.165447670356286,
+      "lng": 100.59885661708759,
+      "color": "#37c62f"
+    },
+    {
+      "id": "SMR",
+      "isoA3": "SMR",
+      "iso2": "sm",
+      "name": "San Marino",
+      "continent": "Europe",
+      "area": 60.19813603789363,
+      "population": 33860,
+      "lat": 43.93688294444445,
+      "lng": 12.454957499999999,
+      "color": "#ca7d49"
+    },
+    {
+      "id": "HTI_0",
+      "isoA3": "HTI",
+      "iso2": "ht",
+      "name": "Haiti",
+      "continent": "North America",
+      "area": 26017.597199281594,
+      "population": 11263077,
+      "lat": 18.919373090586113,
+      "lng": -72.87326772468919,
+      "color": "#41d249"
+    },
+    {
+      "id": "DOM_0",
+      "isoA3": "DOM",
+      "iso2": "do",
+      "name": "Dominican Republic",
+      "continent": "North America",
+      "area": 48430.24696688451,
+      "population": 10738958,
+      "lat": 18.86492378715599,
+      "lng": -70.44687251376146,
+      "color": "#4182d2"
+    },
+    {
+      "id": "TCD",
+      "isoA3": "TCD",
+      "iso2": "td",
+      "name": "Chad",
+      "continent": "Africa",
+      "area": 1270723.1234022623,
+      "population": 15946876,
+      "lat": 12.857273870781896,
+      "lng": 18.171002892181058,
+      "color": "#2692cf"
+    },
+    {
+      "id": "KWT_0",
+      "isoA3": "KWT",
+      "iso2": "kw",
+      "name": "Kuwait",
+      "continent": "Asia",
+      "area": 16703.84219196633,
+      "population": 4207083,
+      "lat": 29.190945448051952,
+      "lng": 47.85136671428571,
+      "color": "#2f39c6"
+    },
+    {
+      "id": "SLV_0",
+      "isoA3": "SLV",
+      "iso2": "sv",
+      "name": "El Salvador",
+      "continent": "North America",
+      "area": 20592.730872053908,
+      "population": 6453553,
+      "lat": 13.79827969467787,
+      "lng": -88.70562040616241,
+      "color": "#3926cf"
+    },
+    {
+      "id": "GTM",
+      "isoA3": "GTM",
+      "iso2": "gt",
+      "name": "Guatemala",
+      "continent": "North America",
+      "area": 109192.01748778217,
+      "population": 16604026,
+      "lat": 15.653937277292595,
+      "lng": -90.08876615283849,
+      "color": "#3937be"
+    },
+    {
+      "id": "TLS_0",
+      "isoA3": "TLS",
+      "iso2": "tl",
+      "name": "East Timor",
+      "continent": "Asia",
+      "area": 742.4613872841383,
+      "population": 1293119,
+      "lat": -9.363812172413791,
+      "lng": 124.28142879310343,
+      "color": "#41d2b9"
+    },
+    {
+      "id": "TLS_1",
+      "isoA3": "TLS",
+      "iso2": "tl",
+      "name": "East Timor",
+      "continent": "Asia",
+      "area": 14252.05993994486,
+      "population": 1293119,
+      "lat": -8.845033106598988,
+      "lng": 125.8057461675128,
+      "color": "#41d2b9"
+    },
+    {
+      "id": "BRN_0",
+      "isoA3": "BRN",
+      "iso2": "bn",
+      "name": "Brunei",
+      "continent": "Asia",
+      "area": 1304.6465246893208,
+      "population": 433285,
+      "lat": 4.607091571428571,
+      "lng": 115.18443638775514,
+      "color": "#7b37be"
+    },
+    {
+      "id": "BRN_1",
+      "isoA3": "BRN",
+      "iso2": "bn",
+      "name": "Brunei",
+      "continent": "Asia",
+      "area": 4437.180287073717,
+      "population": 433285,
+      "lat": 4.525332828571427,
+      "lng": 114.62961799047623,
+      "color": "#7b37be"
+    },
+    {
+      "id": "MCO",
+      "isoA3": "MCO",
+      "iso2": "mc",
+      "name": "Monaco",
+      "continent": "Europe",
+      "area": 18.803401159229075,
+      "population": 38964,
+      "lat": 43.739174181818186,
+      "lng": 7.399974454545457,
+      "color": "#41d26e"
+    },
+    {
+      "id": "DZA",
+      "isoA3": "DZA",
+      "iso2": "dz",
+      "name": "Algeria",
+      "continent": "Africa",
+      "area": 2312302.028210791,
+      "population": 43053054,
+      "lat": 30.782209153044885,
+      "lng": 2.8203092908653864,
+      "color": "#cf2641"
+    },
+    {
+      "id": "MOZ_0",
+      "isoA3": "MOZ",
+      "iso2": "mz",
+      "name": "Mozambique",
+      "continent": "Africa",
+      "area": 790724.7394711467,
+      "population": 30366036,
+      "lat": -17.216822132603923,
+      "lng": 35.98160962888403,
+      "color": "#26cf38"
+    },
+    {
+      "id": "SWZ",
+      "isoA3": "SWZ",
+      "iso2": "sz",
+      "name": "eSwatini",
+      "continent": "Africa",
+      "area": 17142.780093837377,
+      "population": 1148130,
+      "lat": -26.609988523809506,
+      "lng": 31.502742797619042,
+      "color": "#4956ca"
+    },
+    {
+      "id": "BDI",
+      "isoA3": "BDI",
+      "iso2": "bi",
+      "name": "Burundi",
+      "continent": "Africa",
+      "area": 27161.376256799726,
+      "population": 11530580,
+      "lat": -3.0878563627450983,
+      "lng": 30.008905702614374,
+      "color": "#be379c"
+    },
+    {
+      "id": "RWA",
+      "isoA3": "RWA",
+      "iso2": "rw",
+      "name": "Rwanda",
+      "continent": "Africa",
+      "area": 25418.257385424684,
+      "population": 12626950,
+      "lat": -1.9707382624999998,
+      "lng": 29.985179399999993,
+      "color": "#49cabd"
+    },
+    {
+      "id": "MMR_0",
+      "isoA3": "MMR",
+      "iso2": "mm",
+      "name": "Myanmar",
+      "continent": "Asia",
+      "area": 660147.9623376419,
+      "population": 54045420,
+      "lat": 18.76197097086569,
+      "lng": 96.85479029578242,
+      "color": "#bd2fc6"
+    },
+    {
+      "id": "BGD_0",
+      "isoA3": "BGD",
+      "iso2": "bd",
+      "name": "Bangladesh",
+      "continent": "Asia",
+      "area": 134079.59625655695,
+      "population": 163046161,
+      "lat": 23.502687226528376,
+      "lng": 90.33788168831867,
+      "color": "#2fc66e"
+    },
+    {
+      "id": "AND",
+      "isoA3": "AND",
+      "iso2": "ad",
+      "name": "Andorra",
+      "continent": "Europe",
+      "area": 451.49392080202716,
+      "population": 77142,
+      "lat": 42.52889534,
+      "lng": 1.5608953599999997,
+      "color": "#59be37"
+    },
+    {
+      "id": "AFG",
+      "isoA3": "AFG",
+      "iso2": "af",
+      "name": "Afghanistan",
+      "continent": "Asia",
+      "area": 642392.4568643263,
+      "population": 38041754,
+      "lat": 35.2279904094179,
+      "lng": 68.0875948299543,
+      "color": "#41d26b"
+    },
+    {
+      "id": "MNE",
+      "isoA3": "MNE",
+      "iso2": "me",
+      "name": "Montenegro",
+      "continent": "Europe",
+      "area": 13704.079470151095,
+      "population": 622137,
+      "lat": 42.66892347058824,
+      "lng": 19.201791742296923,
+      "color": "#b6db39"
+    },
+    {
+      "id": "BIH",
+      "isoA3": "BIH",
+      "iso2": "ba",
+      "name": "Bosnia and Herzegovina",
+      "continent": "Europe",
+      "area": 51721.6303065715,
+      "population": 3301000,
+      "lat": 44.26208342926829,
+      "lng": 17.912477695934967,
+      "color": "#cf266c"
+    },
+    {
+      "id": "UGA",
+      "isoA3": "UGA",
+      "iso2": "ug",
+      "name": "Uganda",
+      "continent": "Africa",
+      "area": 242935.9995919383,
+      "population": 44269594,
+      "lat": 1.5253367360655756,
+      "lng": 32.01453485409832,
+      "color": "#49b6ca"
+    },
+    {
+      "id": "USG_0",
+      "isoA3": "USG",
+      "name": "US Naval Base Guantanamo Bay",
+      "continent": "North America",
+      "area": 38.23672757152767,
+      "population": 6000,
+      "lat": 19.934738736842103,
+      "lng": -75.128336,
+      "color": "#26cf8e"
+    },
+    {
+      "id": "USG_1",
+      "isoA3": "USG",
+      "name": "US Naval Base Guantanamo Bay",
+      "continent": "North America",
+      "area": 27.307565366931495,
+      "population": 6000,
+      "lat": 19.930212043478264,
+      "lng": -75.19555969565218,
+      "color": "#26cf8e"
+    },
+    {
+      "id": "CUB_0",
+      "isoA3": "CUB",
+      "iso2": "cu",
+      "name": "Cuba",
+      "continent": "North America",
+      "area": 106026.18696824805,
+      "population": 11333483,
+      "lat": 21.675537403890154,
+      "lng": -79.25659874485123,
+      "color": "#9b49ca"
+    },
+    {
+      "id": "HND_0",
+      "isoA3": "HND",
+      "iso2": "hn",
+      "name": "Honduras",
+      "continent": "North America",
+      "area": 112310.5766967035,
+      "population": 9746117,
+      "lat": 14.646811410946196,
+      "lng": -85.97471542578849,
+      "color": "#398edb"
+    },
+    {
+      "id": "ECU_0",
+      "isoA3": "ECU",
+      "iso2": "ec",
+      "name": "Ecuador",
+      "continent": "South America",
+      "area": 247272.56880205453,
+      "population": 17373662,
+      "lat": -1.6455193917835678,
+      "lng": -78.9352105671342,
+      "color": "#49ca5b"
+    },
+    {
+      "id": "COL_0",
+      "isoA3": "COL",
+      "iso2": "co",
+      "name": "Colombia",
+      "continent": "South America",
+      "area": 1139520.1181640634,
+      "population": 50339443,
+      "lat": 4.736340514739219,
+      "lng": -73.7578463391642,
+      "color": "#c62fac"
+    },
+    {
+      "id": "PRY",
+      "isoA3": "PRY",
+      "iso2": "py",
+      "name": "Paraguay",
+      "continent": "South America",
+      "area": 400858.2780313275,
+      "population": 7044636,
+      "lat": -23.93907523198591,
+      "lng": -57.9572779323374,
+      "color": "#b7ca49"
+    },
+    {
+      "id": "BRI",
+      "isoA3": "BRI",
+      "name": "Brazilian Island",
+      "continent": "South America",
+      "area": 2.827639932586845,
+      "population": 0,
+      "lat": -30.18753875,
+      "lng": -57.622732,
+      "color": "#39db5b"
+    },
+    {
+      "id": "PRT_0",
+      "isoA3": "PRT",
+      "iso2": "pt",
+      "name": "Portugal",
+      "continent": "Europe",
+      "area": 87865.19831680365,
+      "population": 10269417,
+      "lat": 39.68650449715582,
+      "lng": -7.938531003412976,
+      "color": "#b726cf"
+    },
+    {
+      "id": "MDA",
+      "isoA3": "MDA",
+      "iso2": "md",
+      "name": "Moldova",
+      "continent": "Europe",
+      "area": 33115.78840216974,
+      "population": 2657637,
+      "lat": 47.13193946527778,
+      "lng": 28.4078450388889,
+      "color": "#8c26cf"
+    },
+    {
+      "id": "TKM_0",
+      "isoA3": "TKM",
+      "iso2": "tm",
+      "name": "Turkmenistan",
+      "continent": "Asia",
+      "area": 470334.31627074047,
+      "population": 5942089,
+      "lat": 39.40197040791104,
+      "lng": 57.25694349690974,
+      "color": "#be7e37"
+    },
+    {
+      "id": "JOR",
+      "isoA3": "JOR",
+      "iso2": "jo",
+      "name": "Jordan",
+      "continent": "Asia",
+      "area": 88940.44926885636,
+      "population": 10101694,
+      "lat": 31.614107112947686,
+      "lng": 36.1980020964187,
+      "color": "#c6702f"
+    },
+    {
+      "id": "NPL",
+      "isoA3": "NPL",
+      "iso2": "np",
+      "name": "Nepal",
+      "continent": "Asia",
+      "area": 147323.50691062855,
+      "population": 28608710,
+      "lat": 28.315011269607837,
+      "lng": 84.16624235098027,
+      "color": "#db8739"
+    },
+    {
+      "id": "LSO",
+      "isoA3": "LSO",
+      "iso2": "ls",
+      "name": "Lesotho",
+      "continent": "Africa",
+      "area": 30143.045287000426,
+      "population": 2125268,
+      "lat": -29.580960829721366,
+      "lng": 28.112086349845228,
+      "color": "#5b37be"
+    },
+    {
+      "id": "CMR",
+      "isoA3": "CMR",
+      "iso2": "cm",
+      "name": "Cameroon",
+      "continent": "Africa",
+      "area": 466331.1514199855,
+      "population": 25876380,
+      "lat": 6.28274837800686,
+      "lng": 12.899024154639195,
+      "color": "#db3967"
+    },
+    {
+      "id": "GAB_0",
+      "isoA3": "GAB",
+      "iso2": "ga",
+      "name": "Gabon",
+      "continent": "Africa",
+      "area": 261007.0394452798,
+      "population": 2172579,
+      "lat": -0.9213315671328655,
+      "lng": 11.276128781818192,
+      "color": "#5c39db"
+    },
+    {
+      "id": "NER",
+      "isoA3": "NER",
+      "iso2": "ne",
+      "name": "Niger",
+      "continent": "Africa",
+      "area": 1185161.1684452272,
+      "population": 23310715,
+      "lat": 15.603664255523531,
+      "lng": 7.963620643611903,
+      "color": "#2fc671"
+    },
+    {
+      "id": "BFA",
+      "isoA3": "BFA",
+      "iso2": "bf",
+      "name": "Burkina Faso",
+      "continent": "Africa",
+      "area": 273826.69117017614,
+      "population": 20321378,
+      "lat": 11.629193144274117,
+      "lng": -2.28148963751127,
+      "color": "#ca5a49"
+    },
+    {
+      "id": "TGO",
+      "isoA3": "TGO",
+      "iso2": "tg",
+      "name": "Togo",
+      "continent": "Africa",
+      "area": 57101.53907111316,
+      "population": 8082366,
+      "lat": 8.790925084536081,
+      "lng": 0.7003371422680409,
+      "color": "#ca4976"
+    },
+    {
+      "id": "GHA",
+      "isoA3": "GHA",
+      "iso2": "gh",
+      "name": "Ghana",
+      "continent": "Africa",
+      "area": 239676.42013242294,
+      "population": 30417856,
+      "lat": 8.298727741233368,
+      "lng": -1.0311469613059259,
+      "color": "#98ca49"
+    },
+    {
+      "id": "GNB_0",
+      "isoA3": "GNB",
+      "iso2": "gw",
+      "name": "Guinea-Bissau",
+      "continent": "Africa",
+      "area": 31478.61887878795,
+      "population": 1920922,
+      "lat": 11.749575813364027,
+      "lng": -15.321406874423968,
+      "color": "#9241d2"
+    },
+    {
+      "id": "GIB",
+      "isoA3": "GIB",
+      "iso2": "gi",
+      "name": "Gibraltar",
+      "continent": "Europe",
+      "area": 3.6919428899218767,
+      "population": 33701,
+      "lat": 36.127615500000005,
+      "lng": -5.344735833333334,
+      "color": "#2f5fc6"
+    },
+    {
+      "id": "USA_0",
+      "isoA3": "USA",
+      "iso2": "us",
+      "name": "United States of America",
+      "continent": "North America",
+      "area": 7923890.890169384,
+      "population": 328239523,
+      "lat": 36.56049148088614,
+      "lng": -91.14977356749856,
+      "color": "#d27041"
+    },
+    {
+      "id": "USA_1",
+      "isoA3": "USA",
+      "iso2": "us",
+      "name": "United States of America",
+      "continent": "North America",
+      "area": 1418467.8991634902,
+      "population": 328239523,
+      "lat": 60.97704226717159,
+      "lng": -152.23400159633442,
+      "color": "#d27041"
+    },
+    {
+      "id": "USA_2",
+      "isoA3": "USA",
+      "iso2": "us",
+      "name": "United States of America",
+      "continent": "North America",
+      "area": 5.4193666890256535,
+      "population": 328239523,
+      "lat": 48.9859184,
+      "lng": -123.0697852,
+      "color": "#d27041"
+    },
+    {
+      "id": "CAN_0",
+      "isoA3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "continent": "North America",
+      "area": 8098685.9345961455,
+      "population": 37589262,
+      "lat": 60.67712970759865,
+      "lng": -92.53899913271516,
+      "color": "#393fdb"
+    },
+    {
+      "id": "CAN_1",
+      "isoA3": "CAN",
+      "iso2": "ca",
+      "name": "Canada",
+      "continent": "North America",
+      "area": 202558.35412158398,
+      "population": 37589262,
+      "lat": 45.67572976061768,
+      "lng": -65.55577094131249,
+      "color": "#393fdb"
+    },
+    {
+      "id": "MEX_0",
+      "isoA3": "MEX",
+      "iso2": "mx",
+      "name": "Mexico",
+      "continent": "North America",
+      "area": 1956544.1612204427,
+      "population": 127575529,
+      "lat": 24.536921604347015,
+      "lng": -104.26936992368016,
+      "color": "#db398d"
+    },
+    {
+      "id": "BLZ_0",
+      "isoA3": "BLZ",
+      "iso2": "bz",
+      "name": "Belize",
+      "continent": "North America",
+      "area": 22083.113481559012,
+      "population": 390353,
+      "lat": 17.197131897763573,
+      "lng": -88.51038412140578,
+      "color": "#37be9d"
+    },
+    {
+      "id": "PAN_0",
+      "isoA3": "PAN",
+      "iso2": "pa",
+      "name": "Panama",
+      "continent": "North America",
+      "area": 73687.4452992723,
+      "population": 4246439,
+      "lat": 8.51209245789147,
+      "lng": -80.03121146350584,
+      "color": "#c62f38"
+    },
+    {
+      "id": "VEN_0",
+      "isoA3": "VEN",
+      "iso2": "ve",
+      "name": "Venezuela",
+      "continent": "South America",
+      "area": 912994.9720015861,
+      "population": 28515829,
+      "lat": 8.075932564922832,
+      "lng": -66.12020472638307,
+      "color": "#be3754"
+    },
+    {
+      "id": "PNG_0",
+      "isoA3": "PNG",
+      "iso2": "pg",
+      "name": "Papua New Guinea",
+      "continent": "Oceania",
+      "area": 401841.77391875186,
+      "population": 8776109,
+      "lat": -7.8814092142465775,
+      "lng": 146.22914078849354,
+      "color": "#5dc62f"
+    },
+    {
+      "id": "EGY_0",
+      "isoA3": "EGY",
+      "iso2": "eg",
+      "name": "Egypt",
+      "continent": "Africa",
+      "area": 1002680.6281061228,
+      "population": 100388073,
+      "lat": 28.7684228290929,
+      "lng": 32.20880761227863,
+      "color": "#6f2fc6"
+    },
+    {
+      "id": "YEM_0",
+      "isoA3": "YEM",
+      "iso2": "ye",
+      "name": "Yemen",
+      "continent": "Asia",
+      "area": 450509.9334703795,
+      "population": 29161922,
+      "lat": 15.128102944444443,
+      "lng": 46.22356471705427,
+      "color": "#cf3a26"
+    },
+    {
+      "id": "MRT_0",
+      "isoA3": "MRT",
+      "iso2": "mr",
+      "name": "Mauritania",
+      "continent": "Africa",
+      "area": 1039133.0679890277,
+      "population": 4525696,
+      "lat": 18.465411915673695,
+      "lng": -12.525642186067826,
+      "color": "#7c49ca"
+    },
+    {
+      "id": "GNQ_0",
+      "isoA3": "GNQ",
+      "iso2": "gq",
+      "name": "Equatorial Guinea",
+      "continent": "Africa",
+      "area": 24782.395945076747,
+      "population": 1355986,
+      "lat": 1.4950681937500003,
+      "lng": 9.838461093750002,
+      "color": "#cfb526"
+    },
+    {
+      "id": "GMB",
+      "isoA3": "GMB",
+      "iso2": "gm",
+      "name": "Gambia",
+      "continent": "Africa",
+      "area": 10540.594115213164,
+      "population": 2347706,
+      "lat": 13.421769061728396,
+      "lng": -15.654221511111107,
+      "color": "#37be5a"
+    },
+    {
+      "id": "HKG_0",
+      "isoA3": "HKG",
+      "iso2": "hk",
+      "name": "Hong Kong S.A.R.",
+      "continent": "Asia",
+      "area": 795.174667862363,
+      "population": 7507400,
+      "lat": 22.41540166396761,
+      "lng": 114.20862206477744,
+      "color": "#bc49ca"
+    },
+    {
+      "id": "VAT",
+      "isoA3": "VAT",
+      "iso2": "va",
+      "name": "Vatican",
+      "continent": "Europe",
+      "area": 0.01218747694009818,
+      "population": 825,
+      "lat": 41.903289333333326,
+      "lng": 12.453277833333333,
+      "color": "#a8c62f"
+    },
+    {
+      "id": "CYN_0",
+      "isoA3": "CYN",
+      "name": "Northern Cyprus",
+      "continent": "Asia",
+      "area": 3313.7159840659883,
+      "population": 326000,
+      "lat": 35.19700184375001,
+      "lng": 33.58212045833333,
+      "color": "#be3779"
+    },
+    {
+      "id": "CYN_1",
+      "isoA3": "CYN",
+      "name": "Northern Cyprus",
+      "continent": "Asia",
+      "area": 5.7437530149336204,
+      "population": 326000,
+      "lat": 35.176253375,
+      "lng": 32.622543625,
+      "color": "#be3779"
+    },
+    {
+      "id": "CNM_0",
+      "isoA3": "CNM",
+      "name": "Cyprus No Mans Area",
+      "continent": "Asia",
+      "area": 12.43371863698529,
+      "population": 10000,
+      "lat": 35.0582112,
+      "lng": 33.958371750000005,
+      "color": "#37be38"
+    },
+    {
+      "id": "CNM_1",
+      "isoA3": "CNM",
+      "name": "Cyprus No Mans Area",
+      "continent": "Asia",
+      "area": 316.7307930727603,
+      "population": 10000,
+      "lat": 35.090961021857936,
+      "lng": 33.26759585245902,
+      "color": "#37be38"
+    },
+    {
+      "id": "CNM_2",
+      "isoA3": "CNM",
+      "name": "Cyprus No Mans Area",
+      "continent": "Asia",
+      "area": 11.852254570997646,
+      "population": 10000,
+      "lat": 35.17058325,
+      "lng": 32.625763937500004,
+      "color": "#37be38"
+    },
+    {
+      "id": "KAS",
+      "isoA3": "KAS",
+      "name": "Siachen Glacier",
+      "continent": "Asia",
+      "area": 2088.0353986248447,
+      "population": 6000,
+      "lat": 35.51913456756757,
+      "lng": 77.22758589189188,
+      "color": "#a6d241"
+    },
+    {
+      "id": "KAB",
+      "isoA3": "KAB",
+      "name": "Baykonur Cosmodrome",
+      "continent": "Asia",
+      "area": 6485.554087852816,
+      "population": 36175,
+      "lat": 45.97832998437501,
+      "lng": 63.383904750000006,
+      "color": "#be37bc"
+    },
+    {
+      "id": "WSB",
+      "isoA3": "WSB",
+      "name": "Akrotiri Sovereign Base Area",
+      "continent": "Asia",
+      "area": 98.69991839354306,
+      "population": 7850,
+      "lat": 34.6554551304348,
+      "lng": 32.90030704347827,
+      "color": "#76be37"
+    },
+    {
+      "id": "SPI",
+      "isoA3": "SPI",
+      "name": "Southern Patagonian Ice Field",
+      "continent": "South America",
+      "area": 1404.2689402231617,
+      "population": 0,
+      "lat": -49.50217617948718,
+      "lng": -73.40800394871796,
+      "color": "#98be37"
+    },
+    {
+      "id": "BRT",
+      "isoA3": "BRT",
+      "name": "Bir Tawil",
+      "continent": "Africa",
+      "area": 2024.7533433170531,
+      "population": 0,
+      "lat": 21.886271000000004,
+      "lng": 33.675091916666666,
+      "color": "#d2b541"
+    },
+    {
+      "id": "ATA_0",
+      "isoA3": "ATA",
+      "iso2": "aq",
+      "name": "Antarctica",
+      "continent": "Antarctica",
+      "area": 12059456.438877925,
+      "population": 4490,
+      "lat": -73.2385193065696,
+      "lng": 9.178746587188023,
+      "color": "#b9db39"
+    },
+    {
+      "id": "AUS_0",
+      "isoA3": "AUS",
+      "iso2": "au",
+      "name": "Australia",
+      "continent": "Oceania",
+      "area": 7613488.984606231,
+      "population": 25364307,
+      "lat": -22.603740163936116,
+      "lng": 134.13533997357584,
+      "color": "#7a49ca"
+    },
+    {
+      "id": "GRL_0",
+      "isoA3": "GRL",
+      "iso2": "gl",
+      "name": "Greenland",
+      "continent": "North America",
+      "area": 2096050.2381246462,
+      "population": 56225,
+      "lat": 70.08365556589727,
+      "lng": -42.53461231530186,
+      "color": "#66db39"
+    },
+    {
+      "id": "FJI_24",
+      "isoA3": "FJI",
+      "iso2": "fj",
+      "name": "Fiji",
+      "continent": "Oceania",
+      "area": 10928.515463492218,
+      "population": 889953,
+      "lat": -17.81245455345911,
+      "lng": 178.01961636163506,
+      "color": "#9d37be"
+    },
+    {
+      "id": "NZL_18",
+      "isoA3": "NZL",
+      "iso2": "nz",
+      "name": "New Zealand",
+      "continent": "Oceania",
+      "area": 150038.30387258134,
+      "population": 4917000,
+      "lat": -43.61833265132346,
+      "lng": 170.77812210932134,
+      "color": "#d241c9"
+    },
+    {
+      "id": "NCL_7",
+      "isoA3": "NCL",
+      "iso2": "nc",
+      "name": "New Caledonia",
+      "continent": "Oceania",
+      "area": 16589.069687242587,
+      "population": 287800,
+      "lat": -21.46917643759178,
+      "lng": 165.6349683920706,
+      "color": "#ca5c49"
+    },
+    {
+      "id": "MDG_0",
+      "isoA3": "MDG",
+      "iso2": "mg",
+      "name": "Madagascar",
+      "continent": "Africa",
+      "area": 594251.2571934907,
+      "population": 26969307,
+      "lat": -16.69012381405751,
+      "lng": 47.29896791246001,
+      "color": "#cabd49"
+    },
+    {
+      "id": "PHL_15",
+      "isoA3": "PHL",
+      "iso2": "ph",
+      "name": "Philippines",
+      "continent": "Asia",
+      "area": 105880.90292826021,
+      "population": 108116615,
+      "lat": 14.888511193569995,
+      "lng": 121.98321304688544,
+      "color": "#26bdcf"
+    },
+    {
+      "id": "LKA_0",
+      "isoA3": "LKA",
+      "iso2": "lk",
+      "name": "Sri Lanka",
+      "continent": "Asia",
+      "area": 66246.61685611709,
+      "population": 21803000,
+      "lat": 8.159285620370369,
+      "lng": 80.68005915079362,
+      "color": "#3ddb39"
+    },
+    {
+      "id": "CUW",
+      "isoA3": "CUW",
+      "iso2": "cw",
+      "name": "Curaçao",
+      "continent": "North America",
+      "area": 465.04448000204667,
+      "population": 157538,
+      "lat": 12.21475693023256,
+      "lng": -68.99338530232559,
+      "color": "#c6bb2f"
+    },
+    {
+      "id": "ABW",
+      "isoA3": "ABW",
+      "iso2": "aw",
+      "name": "Aruba",
+      "continent": "North America",
+      "area": 170.42144278413653,
+      "population": 106314,
+      "lat": 12.518768599999998,
+      "lng": -69.9838794,
+      "color": "#be3737"
+    },
+    {
+      "id": "BHS_21",
+      "isoA3": "BHS",
+      "iso2": "bs",
+      "name": "The Bahamas",
+      "continent": "North America",
+      "area": 3581.7038811969232,
+      "population": 389482,
+      "lat": 24.707479198830416,
+      "lng": -78.12922638596493,
+      "color": "#41a8d2"
+    },
+    {
+      "id": "TCA_2",
+      "isoA3": "TCA",
+      "iso2": "tc",
+      "name": "Turks and Caicos Islands",
+      "continent": "North America",
+      "area": 134.58627707312044,
+      "population": 38191,
+      "lat": 21.805215705882347,
+      "lng": -71.73276791176471,
+      "color": "#c8d241"
+    },
+    {
+      "id": "TWN_0",
+      "isoA3": "TWN",
+      "iso2": "cn-tw",
+      "name": "Taiwan",
+      "continent": "Asia",
+      "area": 35940.42555043409,
+      "population": 23568378,
+      "lat": 23.76439195061729,
+      "lng": 120.90975727160487,
+      "color": "#9441d2"
+    },
+    {
+      "id": "JPN_6",
+      "isoA3": "JPN",
+      "iso2": "jp",
+      "name": "Japan",
+      "continent": "Asia",
+      "area": 229073.94413694672,
+      "population": 126264931,
+      "lat": 36.346234846650574,
+      "lng": 137.15147448708623,
+      "color": "#39dbae"
+    },
+    {
+      "id": "SPM_1",
+      "isoA3": "SPM",
+      "iso2": "pm",
+      "name": "Saint Pierre and Miquelon",
+      "continent": "North America",
+      "area": 212.2070154774879,
+      "population": 5997,
+      "lat": 46.97761557142858,
+      "lng": -56.330172793650796,
+      "color": "#4180d2"
+    },
+    {
+      "id": "ISL_0",
+      "isoA3": "ISL",
+      "iso2": "is",
+      "name": "Iceland",
+      "continent": "Europe",
+      "area": 101694.55115886126,
+      "population": 361313,
+      "lat": 65.2319477135861,
+      "lng": -19.79480774069233,
+      "color": "#dbd639"
+    },
+    {
+      "id": "PCN_2",
+      "isoA3": "PCN",
+      "iso2": "pn",
+      "name": "Pitcairn Islands",
+      "continent": "Oceania",
+      "area": 38.627421546041255,
+      "population": 54,
+      "lat": -24.368788374999998,
+      "lng": -128.31601425,
+      "color": "#39db5e"
+    },
+    {
+      "id": "PYF_41",
+      "isoA3": "PYF",
+      "iso2": "pf",
+      "name": "French Polynesia",
+      "continent": "Oceania",
+      "area": 1038.6185501802634,
+      "population": 279287,
+      "lat": -17.68426231111112,
+      "lng": -149.40308635555556,
+      "color": "#db3964"
+    },
+    {
+      "id": "ATF_7",
+      "isoA3": "ATF",
+      "iso2": "tf",
+      "name": "French Southern and Antarctic Lands",
+      "continent": "Seven seas (open ocean)",
+      "area": 6565.750900635962,
+      "population": 140,
+      "lat": -49.26297029870126,
+      "lng": 69.45885150324683,
+      "color": "#d2415f"
+    },
+    {
+      "id": "SYC_7",
+      "isoA3": "SYC",
+      "iso2": "sc",
+      "name": "Seychelles",
+      "continent": "Seven seas (open ocean)",
+      "area": 164.61809235713488,
+      "population": 97625,
+      "lat": -4.67023994117647,
+      "lng": 55.45409066176472,
+      "color": "#39db88"
+    },
+    {
+      "id": "KIR_22",
+      "isoA3": "KIR",
+      "iso2": "ki",
+      "name": "Kiribati",
+      "continent": "Oceania",
+      "area": 438.4207325776091,
+      "population": 117606,
+      "lat": 1.8812254642857138,
+      "lng": -157.4039124196428,
+      "color": "#be9e37"
+    },
+    {
+      "id": "MHL_7",
+      "isoA3": "MHL",
+      "iso2": "mh",
+      "name": "Marshall Islands",
+      "continent": "Oceania",
+      "area": 40.78225792393142,
+      "population": 58791,
+      "lat": 7.108580375000001,
+      "lng": 171.1920831875,
+      "color": "#56be37"
+    },
+    {
+      "id": "TTO_0",
+      "isoA3": "TTO",
+      "iso2": "tt",
+      "name": "Trinidad and Tobago",
+      "continent": "North America",
+      "area": 4851.659978423061,
+      "population": 1394973,
+      "lat": 10.412877852348991,
+      "lng": -61.435632939597284,
+      "color": "#96ca49"
+    },
+    {
+      "id": "GRD_0",
+      "isoA3": "GRD",
+      "iso2": "gd",
+      "name": "Grenada",
+      "continent": "North America",
+      "area": 314.3558132052076,
+      "population": 112003,
+      "lat": 12.086847093023255,
+      "lng": -61.67842776744187,
+      "color": "#c62f85"
+    },
+    {
+      "id": "VCT_1",
+      "isoA3": "VCT",
+      "iso2": "vc",
+      "name": "Saint Vincent and the Grenadines",
+      "continent": "North America",
+      "area": 330.75283845774504,
+      "population": 110589,
+      "lat": 13.286922217391304,
+      "lng": -61.20083934782608,
+      "color": "#398bdb"
+    },
+    {
+      "id": "BRB",
+      "isoA3": "BRB",
+      "iso2": "bb",
+      "name": "Barbados",
+      "continent": "North America",
+      "area": 445.9073819084077,
+      "population": 287025,
+      "lat": 13.173379705882352,
+      "lng": -59.54943026470589,
+      "color": "#c62f3a"
+    },
+    {
+      "id": "LCA",
+      "isoA3": "LCA",
+      "iso2": "lc",
+      "name": "Saint Lucia",
+      "continent": "North America",
+      "area": 607.3811480226447,
+      "population": 182790,
+      "lat": 13.906173795918367,
+      "lng": -60.98158412244896,
+      "color": "#4998ca"
+    },
+    {
+      "id": "DMA",
+      "isoA3": "DMA",
+      "iso2": "dm",
+      "name": "Dominica",
+      "continent": "North America",
+      "area": 732.8947970667954,
+      "population": 71808,
+      "lat": 15.420673878378377,
+      "lng": -61.37401559459462,
+      "color": "#d539db"
+    },
+    {
+      "id": "UMI_11",
+      "isoA3": "UMI",
+      "iso2": "um",
+      "name": "United States Minor Outlying Islands",
+      "continent": "North America",
+      "area": 7.081951498523546,
+      "population": 300,
+      "lat": 5.881924941176472,
+      "lng": -162.08294694117643,
+      "color": "#63db39"
+    },
+    {
+      "id": "MSR",
+      "isoA3": "MSR",
+      "iso2": "ms",
+      "name": "Montserrat",
+      "continent": "North America",
+      "area": 99.93327539159031,
+      "population": 4649,
+      "lat": 16.7389165,
+      "lng": -62.16876818181818,
+      "color": "#c6972f"
+    },
+    {
+      "id": "ATG_0",
+      "isoA3": "ATG",
+      "iso2": "ag",
+      "name": "Antigua and Barbuda",
+      "continent": "North America",
+      "area": 282.88083319963243,
+      "population": 97118,
+      "lat": 17.080203338709683,
+      "lng": -61.765555274193545,
+      "color": "#26cf34"
+    },
+    {
+      "id": "KNA_1",
+      "isoA3": "KNA",
+      "iso2": "kn",
+      "name": "Saint Kitts and Nevis",
+      "continent": "North America",
+      "area": 176.10763448173793,
+      "population": 52834,
+      "lat": 17.31925577777778,
+      "lng": -62.74307662962962,
+      "color": "#41cad2"
+    },
+    {
+      "id": "VIR_0",
+      "isoA3": "VIR",
+      "iso2": "vi",
+      "name": "United States Virgin Islands",
+      "continent": "North America",
+      "area": 214.16987119513743,
+      "population": 106631,
+      "lat": 17.750368639999998,
+      "lng": -64.74144612,
+      "color": "#6426cf"
+    },
+    {
+      "id": "BLM",
+      "isoA3": "BLM",
+      "iso2": "bl",
+      "name": "Saint Barthelemy",
+      "continent": "North America",
+      "area": 24.50109908963386,
+      "population": 9961,
+      "lat": 17.904791499999998,
+      "lng": -62.836655400000005,
+      "color": "#482fc6"
+    },
+    {
+      "id": "PRI_3",
+      "isoA3": "PRI",
+      "iso2": "pr",
+      "name": "Puerto Rico",
+      "continent": "North America",
+      "area": 8808.249873869918,
+      "population": 3193694,
+      "lat": 18.182098753191486,
+      "lng": -66.42078781276595,
+      "color": "#be5c37"
+    },
+    {
+      "id": "AIA_0",
+      "isoA3": "AIA",
+      "iso2": "ai",
+      "name": "Anguilla",
+      "continent": "North America",
+      "area": 80.68015862566824,
+      "population": 14731,
+      "lat": 18.218895304347825,
+      "lng": -63.06969499999999,
+      "color": "#caba49"
+    },
+    {
+      "id": "VGB_0",
+      "isoA3": "VGB",
+      "iso2": "vg",
+      "name": "British Virgin Islands",
+      "continent": "North America",
+      "area": 63.956579270159004,
+      "population": 30030,
+      "lat": 18.421192218749997,
+      "lng": -64.61332150000001,
+      "color": "#41d24c"
+    },
+    {
+      "id": "JAM",
+      "isoA3": "JAM",
+      "iso2": "jm",
+      "name": "Jamaica",
+      "continent": "North America",
+      "area": 11068.04699481926,
+      "population": 2948279,
+      "lat": 18.10844684980236,
+      "lng": -77.25543787351775,
+      "color": "#3fcf26"
+    },
+    {
+      "id": "CYM_0",
+      "isoA3": "CYM",
+      "iso2": "ky",
+      "name": "Cayman Islands",
+      "continent": "North America",
+      "area": 223.48487525387876,
+      "population": 64948,
+      "lat": 19.327461964912274,
+      "lng": -81.28966375438597,
+      "color": "#39b8db"
+    },
+    {
+      "id": "BMU_0",
+      "isoA3": "BMU",
+      "iso2": "bm",
+      "name": "Bermuda",
+      "continent": "North America",
+      "area": 60.415080077794094,
+      "population": 63918,
+      "lat": 32.30770579166667,
+      "lng": -64.77878591666666,
+      "color": "#d241cc"
+    },
+    {
+      "id": "HMD",
+      "isoA3": "HMD",
+      "iso2": "hm",
+      "name": "Heard Island and McDonald Islands",
+      "continent": "Seven seas (open ocean)",
+      "area": 393.21894111464417,
+      "population": 0,
+      "lat": -53.055115962264146,
+      "lng": 73.4689187735849,
+      "color": "#abc62f"
+    },
+    {
+      "id": "SHN_2",
+      "isoA3": "SHN",
+      "iso2": "sh",
+      "name": "Saint Helena",
+      "continent": "Seven seas (open ocean)",
+      "area": 125.35695356392675,
+      "population": 4534,
+      "lat": -15.96625622222222,
+      "lng": -5.7175020740740745,
+      "color": "#39b5db"
+    },
+    {
+      "id": "MUS_0",
+      "isoA3": "MUS",
+      "iso2": "mu",
+      "name": "Mauritius",
+      "continent": "Seven seas (open ocean)",
+      "area": 1906.6135690303138,
+      "population": 1265711,
+      "lat": -20.237739414634138,
+      "lng": 57.58651973170733,
+      "color": "#39dbd7"
+    },
+    {
+      "id": "COM_2",
+      "isoA3": "COM",
+      "iso2": "km",
+      "name": "Comoros",
+      "continent": "Africa",
+      "area": 1028.7111817573445,
+      "population": 850886,
+      "lat": -11.714774894736843,
+      "lng": 43.358994385964905,
+      "color": "#8fdb39"
+    },
+    {
+      "id": "STP_0",
+      "isoA3": "STP",
+      "iso2": "st",
+      "name": "São Tomé and Principe",
+      "continent": "Africa",
+      "area": 884.8450437331328,
+      "population": 215056,
+      "lat": 0.18904609433962263,
+      "lng": 6.59357479245283,
+      "color": "#722fc6"
+    },
+    {
+      "id": "CPV_2",
+      "isoA3": "CPV",
+      "iso2": "cv",
+      "name": "Cabo Verde",
+      "continent": "Africa",
+      "area": 964.8240213375374,
+      "population": 549935,
+      "lat": 15.119235382978724,
+      "lng": -23.638441829787222,
+      "color": "#3758be"
+    },
+    {
+      "id": "MLT_0",
+      "isoA3": "MLT",
+      "iso2": "mt",
+      "name": "Malta",
+      "continent": "Europe",
+      "area": 261.2558546992625,
+      "population": 502653,
+      "lat": 35.902615756756745,
+      "lng": 14.43832218918919,
+      "color": "#49ca9c"
+    },
+    {
+      "id": "JEY",
+      "isoA3": "JEY",
+      "iso2": "je",
+      "name": "Jersey",
+      "continent": "Europe",
+      "area": 118.66837276619593,
+      "population": 107800,
+      "lat": 49.217687869565225,
+      "lng": -2.12405702173913,
+      "color": "#5b49ca"
+    },
+    {
+      "id": "GGY_0",
+      "isoA3": "GGY",
+      "iso2": "gg",
+      "name": "Guernsey",
+      "continent": "Europe",
+      "area": 62.22770037984104,
+      "population": 62792,
+      "lat": 49.45877828,
+      "lng": -2.581631680000001,
+      "color": "#cf26bf"
+    },
+    {
+      "id": "IMN",
+      "isoA3": "IMN",
+      "iso2": "im",
+      "name": "Isle of Man",
+      "continent": "Europe",
+      "area": 572.3119887620778,
+      "population": 84584,
+      "lat": 54.20686983333334,
+      "lng": -4.540725930555556,
+      "color": "#2fc6bc"
+    },
+    {
+      "id": "ALA_4",
+      "isoA3": "ALA",
+      "iso2": "ax",
+      "name": "Aland",
+      "continent": "Europe",
+      "area": 584.4552418607304,
+      "population": 29884,
+      "lat": 60.23332728140705,
+      "lng": 19.94820210050251,
+      "color": "#2fadc6"
+    },
+    {
+      "id": "FRO_3",
+      "isoA3": "FRO",
+      "iso2": "fo",
+      "name": "Faroe Islands",
+      "continent": "Europe",
+      "area": 367.3148914204014,
+      "population": 48678,
+      "lat": 62.131514428571414,
+      "lng": -6.993882181818179,
+      "color": "#ca4978"
+    },
+    {
+      "id": "IOA_2",
+      "isoA3": "IOA",
+      "name": "Indian Ocean Territories",
+      "continent": "Asia",
+      "area": 99.11931560734374,
+      "population": 2387,
+      "lat": -10.494757259259258,
+      "lng": 105.65572103703704,
+      "color": "#78be37"
+    },
+    {
+      "id": "IOT_0",
+      "isoA3": "IOT",
+      "iso2": "io",
+      "name": "British Indian Ocean Territory",
+      "continent": "Seven seas (open ocean)",
+      "area": 31.620389208667774,
+      "population": 3000,
+      "lat": -7.357279307692307,
+      "lng": 72.43923838461541,
+      "color": "#415dd2"
+    },
+    {
+      "id": "SGP",
+      "isoA3": "SGP",
+      "iso2": "sg",
+      "name": "Singapore",
+      "continent": "Asia",
+      "area": 512.7905329649088,
+      "population": 5703569,
+      "lat": 1.3484758974358975,
+      "lng": 103.81093310256409,
+      "color": "#9d49ca"
+    },
+    {
+      "id": "NFK",
+      "isoA3": "NFK",
+      "iso2": "nf",
+      "name": "Norfolk Island",
+      "continent": "Oceania",
+      "area": 41.201329683479685,
+      "population": 2169,
+      "lat": -29.041911759999994,
+      "lng": 167.94939872000003,
+      "color": "#af39db"
+    },
+    {
+      "id": "COK_3",
+      "isoA3": "COK",
+      "iso2": "ck",
+      "name": "Cook Islands",
+      "continent": "Oceania",
+      "area": 64.33953519445598,
+      "population": 17459,
+      "lat": -21.221205235294114,
+      "lng": -159.78677805882347,
+      "color": "#49cabb"
+    },
+    {
+      "id": "TON_2",
+      "isoA3": "TON",
+      "iso2": "to",
+      "name": "Tonga",
+      "continent": "Oceania",
+      "area": 258.0403002101755,
+      "population": 104494,
+      "lat": -21.162218827586205,
+      "lng": -175.2030161896552,
+      "color": "#cf26bc"
+    },
+    {
+      "id": "WLF_1",
+      "isoA3": "WLF",
+      "iso2": "wf",
+      "name": "Wallis and Futuna",
+      "continent": "Oceania",
+      "area": 76.27265155365745,
+      "population": 11558,
+      "lat": -13.289117090909093,
+      "lng": -176.15833868181815,
+      "color": "#db39b3"
+    },
+    {
+      "id": "WSM_0",
+      "isoA3": "WSM",
+      "iso2": "ws",
+      "name": "Samoa",
+      "continent": "Oceania",
+      "area": 1651.6527857839365,
+      "population": 197097,
+      "lat": -13.635348157894734,
+      "lng": -172.45632039473688,
+      "color": "#415ad2"
+    },
+    {
+      "id": "SLB_8",
+      "isoA3": "SLB",
+      "iso2": "sb",
+      "name": "Solomon Islands",
+      "continent": "Oceania",
+      "area": 5368.893371456992,
+      "population": 669823,
+      "lat": -9.605635512820509,
+      "lng": 160.13716025000005,
+      "color": "#be3777"
+    },
+    {
+      "id": "TUV_0",
+      "isoA3": "TUV",
+      "iso2": "tv",
+      "name": "Tuvalu",
+      "continent": "Oceania",
+      "area": 8.632002585736698,
+      "population": 11646,
+      "lat": -8.506226083333333,
+      "lng": 179.20409174999998,
+      "color": "#37be5d"
+    },
+    {
+      "id": "MDV_111",
+      "isoA3": "MDV",
+      "iso2": "mv",
+      "name": "Maldives",
+      "continent": "Seven seas (open ocean)",
+      "area": 35.08547085553036,
+      "population": 530953,
+      "lat": 4.197385333333333,
+      "lng": 73.51299153333333,
+      "color": "#2faac6"
+    },
+    {
+      "id": "NRU",
+      "isoA3": "NRU",
+      "iso2": "nr",
+      "name": "Nauru",
+      "continent": "Oceania",
+      "area": 28.896118630605766,
+      "population": 12581,
+      "lat": -0.52120325,
+      "lng": 166.93494725000002,
+      "color": "#37be9f"
+    },
+    {
+      "id": "FSM_1",
+      "isoA3": "FSM",
+      "iso2": "fm",
+      "name": "Federated States of Micronesia",
+      "continent": "Oceania",
+      "area": 342.10858004786957,
+      "population": 113815,
+      "lat": 6.89413106122449,
+      "lng": 158.23986797959185,
+      "color": "#3ac62f"
+    },
+    {
+      "id": "SGS_10",
+      "isoA3": "SGS",
+      "iso2": "gs",
+      "name": "South Georgia and the Islands",
+      "continent": "Seven seas (open ocean)",
+      "area": 3593.720936653158,
+      "population": 30,
+      "lat": -54.33297082678981,
+      "lng": -36.75400512471132,
+      "color": "#c6be2f"
+    },
+    {
+      "id": "FLK_7",
+      "isoA3": "FLK",
+      "iso2": "fk",
+      "name": "Falkland Islands",
+      "continent": "South America",
+      "area": 6278.563329515046,
+      "population": 3398,
+      "lat": -51.80043973714287,
+      "lng": -58.84090557904763,
+      "color": "#cbd241"
+    },
+    {
+      "id": "VUT_19",
+      "isoA3": "VUT",
+      "iso2": "vu",
+      "name": "Vanuatu",
+      "continent": "Oceania",
+      "area": 4092.5722334419675,
+      "population": 299882,
+      "lat": -15.183618641025628,
+      "lng": 166.8712483653848,
+      "color": "#2fc6bf"
+    },
+    {
+      "id": "NIU",
+      "isoA3": "NIU",
+      "iso2": "nu",
+      "name": "Niue",
+      "continent": "Oceania",
+      "area": 221.24938234886858,
+      "population": 1620,
+      "lat": -19.064218314285718,
+      "lng": -169.89277562857143,
+      "color": "#cf2668"
+    },
+    {
+      "id": "ASM_0",
+      "isoA3": "ASM",
+      "iso2": "as",
+      "name": "American Samoa",
+      "continent": "Oceania",
+      "area": 131.9354116683509,
+      "population": 55312,
+      "lat": -14.295691428571425,
+      "lng": -170.69282757142855,
+      "color": "#ba2fc6"
+    },
+    {
+      "id": "PLW_3",
+      "isoA3": "PLW",
+      "iso2": "pw",
+      "name": "Palau",
+      "continent": "Oceania",
+      "area": 352.5204861973628,
+      "population": 18008,
+      "lat": 7.513734158730162,
+      "lng": 134.56893195238095,
+      "color": "#ca4997"
+    },
+    {
+      "id": "GUM",
+      "isoA3": "GUM",
+      "iso2": "gu",
+      "name": "Guam",
+      "continent": "Oceania",
+      "area": 566.3277374992145,
+      "population": 167294,
+      "lat": 13.447188104166669,
+      "lng": 144.74917652083334,
+      "color": "#d26d41"
+    },
+    {
+      "id": "MNP_2",
+      "isoA3": "MNP",
+      "iso2": "mp",
+      "name": "Northern Mariana Islands",
+      "continent": "Oceania",
+      "area": 132.91053129434064,
+      "population": 57216,
+      "lat": 15.182927710526318,
+      "lng": 145.74613221052627,
+      "color": "#d2415c"
+    },
+    {
+      "id": "BHR_0",
+      "isoA3": "BHR",
+      "iso2": "bh",
+      "name": "Bahrain",
+      "continent": "Asia",
+      "area": 586.0582447058354,
+      "population": 1641172,
+      "lat": 26.108785142857137,
+      "lng": 50.54998142857142,
+      "color": "#bdbe37"
+    },
+    {
+      "id": "CSI",
+      "isoA3": "CSI",
+      "name": "Coral Sea Islands",
+      "continent": "Oceania",
+      "area": 0.020788705398420156,
+      "population": 4,
+      "lat": -21.029283666666668,
+      "lng": 154.39036466666667,
+      "color": "#26cf60"
+    },
+    {
+      "id": "PGA_7",
+      "isoA3": "PGA",
+      "name": "Spratly Islands",
+      "continent": "Asia",
+      "area": 2.3913499586246996,
+      "population": 100,
+      "lat": 10.729786833333334,
+      "lng": 115.82420900000001,
+      "color": "#d2b841"
+    },
+    {
+      "id": "CLP",
+      "isoA3": "CLP",
+      "name": "Clipperton Island",
+      "continent": "Seven seas (open ocean)",
+      "area": 5.022193121852357,
+      "population": 0,
+      "lat": 10.297342666666667,
+      "lng": -109.22152683333333,
+      "color": "#2f86c6"
+    },
+    {
+      "id": "MAC_0",
+      "isoA3": "MAC",
+      "iso2": "mo",
+      "name": "Macao S.A.R",
+      "continent": "Asia",
+      "area": 19.90880862808702,
+      "population": 640445,
+      "lat": 22.133324869565214,
+      "lng": 113.56256543478261,
+      "color": "#84c62f"
+    },
+    {
+      "id": "ATC",
+      "isoA3": "ATC",
+      "name": "Ashmore and Cartier Islands",
+      "continent": "Oceania",
+      "area": 2.705989558849705,
+      "population": 0,
+      "lat": -12.43257025,
+      "lng": 123.586355,
+      "color": "#377abe"
+    },
+    {
+      "id": "BJN",
+      "isoA3": "BJN",
+      "name": "Bajo Nuevo Bank (Petrel Is.)",
+      "continent": "North America",
+      "area": 0.03598202263643257,
+      "population": 0,
+      "lat": 15.79493875,
+      "lng": -79.98791475,
+      "color": "#59ca49"
+    },
+    {
+      "id": "SER",
+      "isoA3": "SER",
+      "name": "Serranilla Bank",
+      "continent": "North America",
+      "area": 0.105677356447378,
+      "population": 0,
+      "lat": 15.864461,
+      "lng": -78.63811866666667,
+      "color": "#26cf63"
+    },
+    {
+      "id": "SCR",
+      "isoA3": "SCR",
+      "name": "Scarborough Reef",
+      "continent": "Asia",
+      "area": 0.09813099283622416,
+      "population": 0,
+      "lat": 15.152056250000001,
+      "lng": 117.75383049999999,
+      "color": "#8cdb39"
+    }
+  ],
+  "links": [
+    {
+      "source": "IDN_0",
+      "target": "MYS_0"
+    },
+    {
+      "source": "IDN_1",
+      "target": "TLS_0"
+    },
+    {
+      "source": "IDN_1",
+      "target": "TLS_1"
+    },
+    {
+      "source": "IDN_2",
+      "target": "MYS_2"
+    },
+    {
+      "source": "IDN_3",
+      "target": "PNG_0"
+    },
+    {
+      "source": "MYS_1",
+      "target": "THA_0"
+    },
+    {
+      "source": "MYS_2",
+      "target": "BRN_0"
+    },
+    {
+      "source": "MYS_2",
+      "target": "BRN_1"
+    },
+    {
+      "source": "CHL_0",
+      "target": "BOL"
+    },
+    {
+      "source": "CHL_0",
+      "target": "PER_0"
+    },
+    {
+      "source": "CHL_0",
+      "target": "ARG_0"
+    },
+    {
+      "source": "CHL_0",
+      "target": "SPI"
+    },
+    {
+      "source": "CHL_1",
+      "target": "ARG_1"
+    },
+    {
+      "source": "CHL_1",
+      "target": "ARG_2"
+    },
+    {
+      "source": "BOL",
+      "target": "PER_0"
+    },
+    {
+      "source": "BOL",
+      "target": "ARG_0"
+    },
+    {
+      "source": "BOL",
+      "target": "BRA_0"
+    },
+    {
+      "source": "BOL",
+      "target": "PRY"
+    },
+    {
+      "source": "PER_0",
+      "target": "BRA_0"
+    },
+    {
+      "source": "PER_0",
+      "target": "ECU_0"
+    },
+    {
+      "source": "PER_0",
+      "target": "COL_0"
+    },
+    {
+      "source": "ARG_0",
+      "target": "BRA_0"
+    },
+    {
+      "source": "ARG_0",
+      "target": "URY"
+    },
+    {
+      "source": "ARG_0",
+      "target": "PRY"
+    },
+    {
+      "source": "ARG_0",
+      "target": "BRI"
+    },
+    {
+      "source": "ARG_0",
+      "target": "SPI"
+    },
+    {
+      "source": "ESB",
+      "target": "CYP_0"
+    },
+    {
+      "source": "ESB",
+      "target": "CYP_1"
+    },
+    {
+      "source": "ESB",
+      "target": "CYP_2"
+    },
+    {
+      "source": "ESB",
+      "target": "CYP_3"
+    },
+    {
+      "source": "ESB",
+      "target": "CYN_0"
+    },
+    {
+      "source": "ESB",
+      "target": "CNM_0"
+    },
+    {
+      "source": "ESB",
+      "target": "CNM_1"
+    },
+    {
+      "source": "CYP_2",
+      "target": "CNM_1"
+    },
+    {
+      "source": "CYP_2",
+      "target": "CNM_2"
+    },
+    {
+      "source": "CYP_2",
+      "target": "WSB"
+    },
+    {
+      "source": "CYP_3",
+      "target": "CNM_0"
+    },
+    {
+      "source": "IND_0",
+      "target": "CHN_0"
+    },
+    {
+      "source": "IND_0",
+      "target": "BTN"
+    },
+    {
+      "source": "IND_0",
+      "target": "PAK_0"
+    },
+    {
+      "source": "IND_0",
+      "target": "MMR_0"
+    },
+    {
+      "source": "IND_0",
+      "target": "BGD_0"
+    },
+    {
+      "source": "IND_0",
+      "target": "NPL"
+    },
+    {
+      "source": "IND_0",
+      "target": "KAS"
+    },
+    {
+      "source": "CHN_0",
+      "target": "PRK_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "BTN"
+    },
+    {
+      "source": "CHN_0",
+      "target": "KAZ_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "TJK_1"
+    },
+    {
+      "source": "CHN_0",
+      "target": "MNG"
+    },
+    {
+      "source": "CHN_0",
+      "target": "RUS_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "VNM_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "LAO"
+    },
+    {
+      "source": "CHN_0",
+      "target": "KGZ"
+    },
+    {
+      "source": "CHN_0",
+      "target": "PAK_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "MMR_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "AFG"
+    },
+    {
+      "source": "CHN_0",
+      "target": "NPL"
+    },
+    {
+      "source": "CHN_0",
+      "target": "HKG_0"
+    },
+    {
+      "source": "CHN_0",
+      "target": "KAS"
+    },
+    {
+      "source": "ISR",
+      "target": "PSE_0"
+    },
+    {
+      "source": "ISR",
+      "target": "PSE_1"
+    },
+    {
+      "source": "ISR",
+      "target": "LBN"
+    },
+    {
+      "source": "ISR",
+      "target": "SYR"
+    },
+    {
+      "source": "ISR",
+      "target": "JOR"
+    },
+    {
+      "source": "ISR",
+      "target": "EGY_0"
+    },
+    {
+      "source": "PSE_0",
+      "target": "EGY_0"
+    },
+    {
+      "source": "PSE_1",
+      "target": "JOR"
+    },
+    {
+      "source": "LBN",
+      "target": "SYR"
+    },
+    {
+      "source": "ETH",
+      "target": "SSD"
+    },
+    {
+      "source": "ETH",
+      "target": "SOM"
+    },
+    {
+      "source": "ETH",
+      "target": "KEN_0"
+    },
+    {
+      "source": "ETH",
+      "target": "SOL"
+    },
+    {
+      "source": "ETH",
+      "target": "SDN_0"
+    },
+    {
+      "source": "ETH",
+      "target": "DJI"
+    },
+    {
+      "source": "ETH",
+      "target": "ERI_0"
+    },
+    {
+      "source": "SSD",
+      "target": "KEN_0"
+    },
+    {
+      "source": "SSD",
+      "target": "COD_0"
+    },
+    {
+      "source": "SSD",
+      "target": "CAF"
+    },
+    {
+      "source": "SSD",
+      "target": "SDN_0"
+    },
+    {
+      "source": "SSD",
+      "target": "UGA"
+    },
+    {
+      "source": "SOM",
+      "target": "KEN_0"
+    },
+    {
+      "source": "SOM",
+      "target": "SOL"
+    },
+    {
+      "source": "KEN_0",
+      "target": "TZA_0"
+    },
+    {
+      "source": "KEN_0",
+      "target": "UGA"
+    },
+    {
+      "source": "MWI_0",
+      "target": "TZA_0"
+    },
+    {
+      "source": "MWI_0",
+      "target": "ZMB"
+    },
+    {
+      "source": "MWI_0",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "MWI_1",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "MWI_2",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "TZA_0",
+      "target": "COD_0"
+    },
+    {
+      "source": "TZA_0",
+      "target": "ZMB"
+    },
+    {
+      "source": "TZA_0",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "TZA_0",
+      "target": "BDI"
+    },
+    {
+      "source": "TZA_0",
+      "target": "RWA"
+    },
+    {
+      "source": "TZA_0",
+      "target": "UGA"
+    },
+    {
+      "source": "SYR",
+      "target": "TUR_0"
+    },
+    {
+      "source": "SYR",
+      "target": "IRQ"
+    },
+    {
+      "source": "SYR",
+      "target": "JOR"
+    },
+    {
+      "source": "SOL",
+      "target": "DJI"
+    },
+    {
+      "source": "FRA_0",
+      "target": "SUR"
+    },
+    {
+      "source": "FRA_0",
+      "target": "BRA_0"
+    },
+    {
+      "source": "FRA_1",
+      "target": "DEU_0"
+    },
+    {
+      "source": "FRA_1",
+      "target": "LUX"
+    },
+    {
+      "source": "FRA_1",
+      "target": "BEL"
+    },
+    {
+      "source": "FRA_1",
+      "target": "ESP_2"
+    },
+    {
+      "source": "FRA_1",
+      "target": "ESP_3"
+    },
+    {
+      "source": "FRA_1",
+      "target": "ITA_0"
+    },
+    {
+      "source": "FRA_1",
+      "target": "CHE"
+    },
+    {
+      "source": "FRA_1",
+      "target": "MCO"
+    },
+    {
+      "source": "FRA_1",
+      "target": "AND"
+    },
+    {
+      "source": "SUR",
+      "target": "GUY_0"
+    },
+    {
+      "source": "SUR",
+      "target": "BRA_0"
+    },
+    {
+      "source": "GUY_0",
+      "target": "BRA_0"
+    },
+    {
+      "source": "GUY_0",
+      "target": "VEN_0"
+    },
+    {
+      "source": "KOR_0",
+      "target": "PRK_0"
+    },
+    {
+      "source": "PRK_0",
+      "target": "RUS_0"
+    },
+    {
+      "source": "MAR",
+      "target": "ESH"
+    },
+    {
+      "source": "MAR",
+      "target": "ESP_0"
+    },
+    {
+      "source": "MAR",
+      "target": "ESP_1"
+    },
+    {
+      "source": "MAR",
+      "target": "DZA"
+    },
+    {
+      "source": "ESH",
+      "target": "DZA"
+    },
+    {
+      "source": "ESH",
+      "target": "MRT_0"
+    },
+    {
+      "source": "CRI_0",
+      "target": "NIC_0"
+    },
+    {
+      "source": "CRI_0",
+      "target": "NIC_1"
+    },
+    {
+      "source": "CRI_0",
+      "target": "PAN_0"
+    },
+    {
+      "source": "NIC_0",
+      "target": "HND_0"
+    },
+    {
+      "source": "COG",
+      "target": "COD_0"
+    },
+    {
+      "source": "COG",
+      "target": "CAF"
+    },
+    {
+      "source": "COG",
+      "target": "AGO_0"
+    },
+    {
+      "source": "COG",
+      "target": "CMR"
+    },
+    {
+      "source": "COG",
+      "target": "GAB_0"
+    },
+    {
+      "source": "COD_0",
+      "target": "ZMB"
+    },
+    {
+      "source": "COD_0",
+      "target": "CAF"
+    },
+    {
+      "source": "COD_0",
+      "target": "AGO_0"
+    },
+    {
+      "source": "COD_0",
+      "target": "AGO_1"
+    },
+    {
+      "source": "COD_0",
+      "target": "BDI"
+    },
+    {
+      "source": "COD_0",
+      "target": "RWA"
+    },
+    {
+      "source": "COD_0",
+      "target": "UGA"
+    },
+    {
+      "source": "UKR_0",
+      "target": "BLR"
+    },
+    {
+      "source": "UKR_0",
+      "target": "RUS_0"
+    },
+    {
+      "source": "UKR_0",
+      "target": "RUS_2"
+    },
+    {
+      "source": "UKR_0",
+      "target": "ROU"
+    },
+    {
+      "source": "UKR_0",
+      "target": "HUN"
+    },
+    {
+      "source": "UKR_0",
+      "target": "SVK"
+    },
+    {
+      "source": "UKR_0",
+      "target": "POL"
+    },
+    {
+      "source": "UKR_0",
+      "target": "MDA"
+    },
+    {
+      "source": "BLR",
+      "target": "LTU_0"
+    },
+    {
+      "source": "BLR",
+      "target": "RUS_0"
+    },
+    {
+      "source": "BLR",
+      "target": "LVA"
+    },
+    {
+      "source": "BLR",
+      "target": "POL"
+    },
+    {
+      "source": "NAM",
+      "target": "ZAF_0"
+    },
+    {
+      "source": "NAM",
+      "target": "ZMB"
+    },
+    {
+      "source": "NAM",
+      "target": "AGO_1"
+    },
+    {
+      "source": "NAM",
+      "target": "BWA"
+    },
+    {
+      "source": "NAM",
+      "target": "ZWE"
+    },
+    {
+      "source": "ZAF_0",
+      "target": "BWA"
+    },
+    {
+      "source": "ZAF_0",
+      "target": "ZWE"
+    },
+    {
+      "source": "ZAF_0",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "ZAF_0",
+      "target": "SWZ"
+    },
+    {
+      "source": "ZAF_0",
+      "target": "LSO"
+    },
+    {
+      "source": "MAF",
+      "target": "SXM"
+    },
+    {
+      "source": "OMN_0",
+      "target": "ARE_0"
+    },
+    {
+      "source": "OMN_0",
+      "target": "ARE_1"
+    },
+    {
+      "source": "OMN_1",
+      "target": "ARE_0"
+    },
+    {
+      "source": "OMN_2",
+      "target": "ARE_0"
+    },
+    {
+      "source": "OMN_2",
+      "target": "SAU_0"
+    },
+    {
+      "source": "OMN_2",
+      "target": "YEM_0"
+    },
+    {
+      "source": "UZB_0",
+      "target": "KGZ"
+    },
+    {
+      "source": "UZB_1",
+      "target": "KAZ_0"
+    },
+    {
+      "source": "UZB_1",
+      "target": "TJK_0"
+    },
+    {
+      "source": "UZB_1",
+      "target": "TJK_1"
+    },
+    {
+      "source": "UZB_1",
+      "target": "KGZ"
+    },
+    {
+      "source": "UZB_1",
+      "target": "AFG"
+    },
+    {
+      "source": "UZB_1",
+      "target": "TKM_0"
+    },
+    {
+      "source": "UZB_2",
+      "target": "KGZ"
+    },
+    {
+      "source": "KAZ_0",
+      "target": "RUS_0"
+    },
+    {
+      "source": "KAZ_0",
+      "target": "KGZ"
+    },
+    {
+      "source": "KAZ_0",
+      "target": "TKM_0"
+    },
+    {
+      "source": "KAZ_0",
+      "target": "KAB"
+    },
+    {
+      "source": "TJK_1",
+      "target": "KGZ"
+    },
+    {
+      "source": "TJK_1",
+      "target": "AFG"
+    },
+    {
+      "source": "TJK_2",
+      "target": "KGZ"
+    },
+    {
+      "source": "LTU_0",
+      "target": "RUS_1"
+    },
+    {
+      "source": "LTU_0",
+      "target": "LVA"
+    },
+    {
+      "source": "LTU_0",
+      "target": "POL"
+    },
+    {
+      "source": "LTU_1",
+      "target": "RUS_1"
+    },
+    {
+      "source": "BRA_0",
+      "target": "URY"
+    },
+    {
+      "source": "BRA_0",
+      "target": "COL_0"
+    },
+    {
+      "source": "BRA_0",
+      "target": "PRY"
+    },
+    {
+      "source": "BRA_0",
+      "target": "BRI"
+    },
+    {
+      "source": "BRA_0",
+      "target": "VEN_0"
+    },
+    {
+      "source": "URY",
+      "target": "BRI"
+    },
+    {
+      "source": "MNG",
+      "target": "RUS_0"
+    },
+    {
+      "source": "RUS_0",
+      "target": "EST_0"
+    },
+    {
+      "source": "RUS_0",
+      "target": "LVA"
+    },
+    {
+      "source": "RUS_0",
+      "target": "NOR_0"
+    },
+    {
+      "source": "RUS_0",
+      "target": "FIN_0"
+    },
+    {
+      "source": "RUS_0",
+      "target": "GEO"
+    },
+    {
+      "source": "RUS_0",
+      "target": "AZE_1"
+    },
+    {
+      "source": "RUS_1",
+      "target": "POL"
+    },
+    {
+      "source": "CZE",
+      "target": "DEU_0"
+    },
+    {
+      "source": "CZE",
+      "target": "SVK"
+    },
+    {
+      "source": "CZE",
+      "target": "POL"
+    },
+    {
+      "source": "CZE",
+      "target": "AUT"
+    },
+    {
+      "source": "DEU_0",
+      "target": "LUX"
+    },
+    {
+      "source": "DEU_0",
+      "target": "BEL"
+    },
+    {
+      "source": "DEU_0",
+      "target": "DNK_0"
+    },
+    {
+      "source": "DEU_0",
+      "target": "POL"
+    },
+    {
+      "source": "DEU_0",
+      "target": "AUT"
+    },
+    {
+      "source": "DEU_0",
+      "target": "CHE"
+    },
+    {
+      "source": "DEU_0",
+      "target": "NLD_0"
+    },
+    {
+      "source": "DEU_1",
+      "target": "POL"
+    },
+    {
+      "source": "EST_0",
+      "target": "LVA"
+    },
+    {
+      "source": "NOR_0",
+      "target": "SWE_0"
+    },
+    {
+      "source": "NOR_0",
+      "target": "FIN_0"
+    },
+    {
+      "source": "SWE_0",
+      "target": "FIN_0"
+    },
+    {
+      "source": "VNM_0",
+      "target": "KHM_0"
+    },
+    {
+      "source": "VNM_0",
+      "target": "LAO"
+    },
+    {
+      "source": "KHM_0",
+      "target": "LAO"
+    },
+    {
+      "source": "KHM_0",
+      "target": "THA_0"
+    },
+    {
+      "source": "LUX",
+      "target": "BEL"
+    },
+    {
+      "source": "ARE_0",
+      "target": "SAU_0"
+    },
+    {
+      "source": "BEL",
+      "target": "NLD_0"
+    },
+    {
+      "source": "BEL",
+      "target": "NLD_1"
+    },
+    {
+      "source": "GEO",
+      "target": "AZE_1"
+    },
+    {
+      "source": "GEO",
+      "target": "TUR_0"
+    },
+    {
+      "source": "GEO",
+      "target": "ARM_0"
+    },
+    {
+      "source": "MKD",
+      "target": "ALB"
+    },
+    {
+      "source": "MKD",
+      "target": "KOS"
+    },
+    {
+      "source": "MKD",
+      "target": "GRC_0"
+    },
+    {
+      "source": "MKD",
+      "target": "SRB"
+    },
+    {
+      "source": "MKD",
+      "target": "BGR"
+    },
+    {
+      "source": "ALB",
+      "target": "KOS"
+    },
+    {
+      "source": "ALB",
+      "target": "GRC_0"
+    },
+    {
+      "source": "ALB",
+      "target": "MNE"
+    },
+    {
+      "source": "AZE_0",
+      "target": "ARM_0"
+    },
+    {
+      "source": "AZE_1",
+      "target": "ARM_0"
+    },
+    {
+      "source": "AZE_1",
+      "target": "ARM_1"
+    },
+    {
+      "source": "AZE_1",
+      "target": "IRN_0"
+    },
+    {
+      "source": "AZE_2",
+      "target": "TUR_0"
+    },
+    {
+      "source": "AZE_2",
+      "target": "ARM_0"
+    },
+    {
+      "source": "AZE_2",
+      "target": "IRN_0"
+    },
+    {
+      "source": "AZE_3",
+      "target": "ARM_0"
+    },
+    {
+      "source": "KOS",
+      "target": "SRB"
+    },
+    {
+      "source": "KOS",
+      "target": "MNE"
+    },
+    {
+      "source": "TUR_0",
+      "target": "ARM_0"
+    },
+    {
+      "source": "TUR_0",
+      "target": "IRQ"
+    },
+    {
+      "source": "TUR_0",
+      "target": "IRN_0"
+    },
+    {
+      "source": "TUR_1",
+      "target": "GRC_0"
+    },
+    {
+      "source": "TUR_1",
+      "target": "BGR"
+    },
+    {
+      "source": "ESP_2",
+      "target": "AND"
+    },
+    {
+      "source": "ESP_2",
+      "target": "PRT_0"
+    },
+    {
+      "source": "ESP_2",
+      "target": "GIB"
+    },
+    {
+      "source": "LAO",
+      "target": "THA_0"
+    },
+    {
+      "source": "LAO",
+      "target": "MMR_0"
+    },
+    {
+      "source": "ARM_0",
+      "target": "IRN_0"
+    },
+    {
+      "source": "LBY",
+      "target": "TUN_0"
+    },
+    {
+      "source": "LBY",
+      "target": "SDN_0"
+    },
+    {
+      "source": "LBY",
+      "target": "TCD"
+    },
+    {
+      "source": "LBY",
+      "target": "DZA"
+    },
+    {
+      "source": "LBY",
+      "target": "NER"
+    },
+    {
+      "source": "LBY",
+      "target": "EGY_0"
+    },
+    {
+      "source": "TUN_0",
+      "target": "DZA"
+    },
+    {
+      "source": "ROU",
+      "target": "HUN"
+    },
+    {
+      "source": "ROU",
+      "target": "SRB"
+    },
+    {
+      "source": "ROU",
+      "target": "BGR"
+    },
+    {
+      "source": "ROU",
+      "target": "MDA"
+    },
+    {
+      "source": "HUN",
+      "target": "SVK"
+    },
+    {
+      "source": "HUN",
+      "target": "AUT"
+    },
+    {
+      "source": "HUN",
+      "target": "SRB"
+    },
+    {
+      "source": "HUN",
+      "target": "HRV_0"
+    },
+    {
+      "source": "HUN",
+      "target": "SVN"
+    },
+    {
+      "source": "SVK",
+      "target": "POL"
+    },
+    {
+      "source": "SVK",
+      "target": "AUT"
+    },
+    {
+      "source": "IRL_0",
+      "target": "GBR_0"
+    },
+    {
+      "source": "GRC_0",
+      "target": "BGR"
+    },
+    {
+      "source": "ZMB",
+      "target": "AGO_1"
+    },
+    {
+      "source": "ZMB",
+      "target": "BWA"
+    },
+    {
+      "source": "ZMB",
+      "target": "ZWE"
+    },
+    {
+      "source": "ZMB",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "SLE_0",
+      "target": "GIN"
+    },
+    {
+      "source": "SLE_0",
+      "target": "LBR"
+    },
+    {
+      "source": "GIN",
+      "target": "LBR"
+    },
+    {
+      "source": "GIN",
+      "target": "CIV_0"
+    },
+    {
+      "source": "GIN",
+      "target": "MLI"
+    },
+    {
+      "source": "GIN",
+      "target": "SEN"
+    },
+    {
+      "source": "GIN",
+      "target": "GNB_0"
+    },
+    {
+      "source": "LBR",
+      "target": "CIV_0"
+    },
+    {
+      "source": "CAF",
+      "target": "SDN_0"
+    },
+    {
+      "source": "CAF",
+      "target": "TCD"
+    },
+    {
+      "source": "CAF",
+      "target": "CMR"
+    },
+    {
+      "source": "SDN_0",
+      "target": "ERI_0"
+    },
+    {
+      "source": "SDN_0",
+      "target": "TCD"
+    },
+    {
+      "source": "SDN_0",
+      "target": "EGY_0"
+    },
+    {
+      "source": "SDN_0",
+      "target": "BRT"
+    },
+    {
+      "source": "DJI",
+      "target": "ERI_0"
+    },
+    {
+      "source": "AUT",
+      "target": "ITA_0"
+    },
+    {
+      "source": "AUT",
+      "target": "CHE"
+    },
+    {
+      "source": "AUT",
+      "target": "LIE"
+    },
+    {
+      "source": "AUT",
+      "target": "SVN"
+    },
+    {
+      "source": "IRQ",
+      "target": "IRN_0"
+    },
+    {
+      "source": "IRQ",
+      "target": "SAU_0"
+    },
+    {
+      "source": "IRQ",
+      "target": "KWT_0"
+    },
+    {
+      "source": "IRQ",
+      "target": "JOR"
+    },
+    {
+      "source": "ITA_0",
+      "target": "CHE"
+    },
+    {
+      "source": "ITA_0",
+      "target": "SVN"
+    },
+    {
+      "source": "ITA_0",
+      "target": "SMR"
+    },
+    {
+      "source": "ITA_0",
+      "target": "VAT"
+    },
+    {
+      "source": "CHE",
+      "target": "LIE"
+    },
+    {
+      "source": "IRN_0",
+      "target": "PAK_0"
+    },
+    {
+      "source": "IRN_0",
+      "target": "AFG"
+    },
+    {
+      "source": "IRN_0",
+      "target": "TKM_0"
+    },
+    {
+      "source": "CIV_0",
+      "target": "MLI"
+    },
+    {
+      "source": "CIV_0",
+      "target": "BFA"
+    },
+    {
+      "source": "CIV_0",
+      "target": "GHA"
+    },
+    {
+      "source": "CIV_1",
+      "target": "GHA"
+    },
+    {
+      "source": "SRB",
+      "target": "HRV_0"
+    },
+    {
+      "source": "SRB",
+      "target": "BGR"
+    },
+    {
+      "source": "SRB",
+      "target": "MNE"
+    },
+    {
+      "source": "SRB",
+      "target": "BIH"
+    },
+    {
+      "source": "MLI",
+      "target": "SEN"
+    },
+    {
+      "source": "MLI",
+      "target": "DZA"
+    },
+    {
+      "source": "MLI",
+      "target": "NER"
+    },
+    {
+      "source": "MLI",
+      "target": "BFA"
+    },
+    {
+      "source": "MLI",
+      "target": "MRT_0"
+    },
+    {
+      "source": "SEN",
+      "target": "GNB_0"
+    },
+    {
+      "source": "SEN",
+      "target": "MRT_0"
+    },
+    {
+      "source": "SEN",
+      "target": "GMB"
+    },
+    {
+      "source": "NGA_0",
+      "target": "BEN"
+    },
+    {
+      "source": "NGA_0",
+      "target": "TCD"
+    },
+    {
+      "source": "NGA_0",
+      "target": "CMR"
+    },
+    {
+      "source": "NGA_0",
+      "target": "NER"
+    },
+    {
+      "source": "BEN",
+      "target": "NER"
+    },
+    {
+      "source": "BEN",
+      "target": "BFA"
+    },
+    {
+      "source": "BEN",
+      "target": "TGO"
+    },
+    {
+      "source": "HRV_0",
+      "target": "SVN"
+    },
+    {
+      "source": "HRV_0",
+      "target": "BIH"
+    },
+    {
+      "source": "HRV_1",
+      "target": "MNE"
+    },
+    {
+      "source": "HRV_1",
+      "target": "BIH"
+    },
+    {
+      "source": "QAT",
+      "target": "SAU_0"
+    },
+    {
+      "source": "SAU_0",
+      "target": "KWT_0"
+    },
+    {
+      "source": "SAU_0",
+      "target": "JOR"
+    },
+    {
+      "source": "SAU_0",
+      "target": "YEM_0"
+    },
+    {
+      "source": "BWA",
+      "target": "ZWE"
+    },
+    {
+      "source": "ZWE",
+      "target": "MOZ_0"
+    },
+    {
+      "source": "PAK_0",
+      "target": "AFG"
+    },
+    {
+      "source": "PAK_0",
+      "target": "KAS"
+    },
+    {
+      "source": "THA_0",
+      "target": "MMR_0"
+    },
+    {
+      "source": "HTI_0",
+      "target": "DOM_0"
+    },
+    {
+      "source": "TCD",
+      "target": "CMR"
+    },
+    {
+      "source": "TCD",
+      "target": "NER"
+    },
+    {
+      "source": "SLV_0",
+      "target": "GTM"
+    },
+    {
+      "source": "SLV_0",
+      "target": "HND_0"
+    },
+    {
+      "source": "GTM",
+      "target": "HND_0"
+    },
+    {
+      "source": "GTM",
+      "target": "MEX_0"
+    },
+    {
+      "source": "GTM",
+      "target": "BLZ_0"
+    },
+    {
+      "source": "DZA",
+      "target": "NER"
+    },
+    {
+      "source": "DZA",
+      "target": "MRT_0"
+    },
+    {
+      "source": "MOZ_0",
+      "target": "SWZ"
+    },
+    {
+      "source": "BDI",
+      "target": "RWA"
+    },
+    {
+      "source": "RWA",
+      "target": "UGA"
+    },
+    {
+      "source": "MMR_0",
+      "target": "BGD_0"
+    },
+    {
+      "source": "AFG",
+      "target": "TKM_0"
+    },
+    {
+      "source": "MNE",
+      "target": "BIH"
+    },
+    {
+      "source": "USG_0",
+      "target": "CUB_0"
+    },
+    {
+      "source": "USG_1",
+      "target": "CUB_0"
+    },
+    {
+      "source": "ECU_0",
+      "target": "COL_0"
+    },
+    {
+      "source": "COL_0",
+      "target": "PAN_0"
+    },
+    {
+      "source": "COL_0",
+      "target": "VEN_0"
+    },
+    {
+      "source": "CMR",
+      "target": "GAB_0"
+    },
+    {
+      "source": "CMR",
+      "target": "GNQ_0"
+    },
+    {
+      "source": "GAB_0",
+      "target": "GNQ_0"
+    },
+    {
+      "source": "NER",
+      "target": "BFA"
+    },
+    {
+      "source": "BFA",
+      "target": "TGO"
+    },
+    {
+      "source": "BFA",
+      "target": "GHA"
+    },
+    {
+      "source": "TGO",
+      "target": "GHA"
+    },
+    {
+      "source": "USA_0",
+      "target": "CAN_0"
+    },
+    {
+      "source": "USA_0",
+      "target": "CAN_1"
+    },
+    {
+      "source": "USA_0",
+      "target": "MEX_0"
+    },
+    {
+      "source": "USA_1",
+      "target": "CAN_0"
+    },
+    {
+      "source": "USA_2",
+      "target": "CAN_0"
+    },
+    {
+      "source": "MEX_0",
+      "target": "BLZ_0"
+    },
+    {
+      "source": "EGY_0",
+      "target": "BRT"
+    },
+    {
+      "source": "CYN_0",
+      "target": "CNM_0"
+    },
+    {
+      "source": "CYN_0",
+      "target": "CNM_1"
+    },
+    {
+      "source": "CYN_1",
+      "target": "CNM_2"
+    }
+  ]
+}
