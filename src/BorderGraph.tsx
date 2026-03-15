@@ -89,8 +89,23 @@ interface BorderData {
 
 // radius = sqrt(area / 4) * K_SCALE  — proportional to real area
 const SHOW_FLAGS = false  // set to false to fill nodes with color only
-
 const K_SCALE = 0.04
+const STORAGE_KEY = 'bordergraph-positions'
+
+function loadSavedPositions(): Record<string, { x: number; y: number }> | null {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY)
+    return raw ? JSON.parse(raw) : null
+  } catch { return null }
+}
+
+function savePositions(graph: Graph) {
+  const positions: Record<string, { x: number; y: number }> = {}
+  graph.forEachNode((node, attrs) => {
+    positions[node] = { x: attrs.x as number, y: attrs.y as number }
+  })
+  try { localStorage.setItem(STORAGE_KEY, JSON.stringify(positions)) } catch { /* quota */ }
+}
 
 function nodeSize(area: number): number {
   return Math.sqrt(Math.max(area, 1) / 4) * K_SCALE
@@ -118,14 +133,16 @@ export default function BorderGraph() {
     Promise.all(requests)
       .then(([data, flags]) => {
         const graph = new Graph({ multi: false })
+        const savedPositions = loadSavedPositions()
 
         data.nodes.forEach(n => {
+          const saved = savedPositions?.[n.id]
           graph.addNode(n.id, {
             label: n.name,
             size:  nodeSize(n.area),
             color: n.color,
-            x: n.lng,
-            y: n.lat,
+            x: saved ? saved.x : n.lng,
+            y: saved ? saved.y : n.lat,
             ...(SHOW_FLAGS && flags[n.isoA3] ? { type: 'image', image: flags[n.isoA3] } : {}),
           })
         })
@@ -183,6 +200,7 @@ export default function BorderGraph() {
         sigma.getMouseCaptor().on('mouseup', () => {
           draggedNode = null
           sigma?.getCamera().enable()
+          savePositions(graph)
         })
 
         sigma.on('enterNode', ({ node }) => {
@@ -222,6 +240,19 @@ export default function BorderGraph() {
           node size ∝ area
         </p>
       </div>
+
+      {/* Reset layout button */}
+      <button
+        onClick={() => { localStorage.removeItem(STORAGE_KEY); location.reload() }}
+        style={{
+          position: 'absolute', top: 16, right: 16, zIndex: 30,
+          padding: '6px 12px', fontSize: 12, cursor: 'pointer',
+          background: '#fff', border: '1px solid #cbd5e1', borderRadius: 6,
+          color: '#475569', fontFamily: 'Inter, system-ui, sans-serif',
+        }}
+      >
+        Reset layout
+      </button>
 
       {/* Legend */}
       <div style={{
