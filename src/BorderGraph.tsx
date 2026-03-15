@@ -39,6 +39,10 @@ const K_SCALE     = 0.010
 const STORAGE_KEY = 'bordergraph-positions'
 const FONT        = 'Inter, system-ui, sans-serif'
 const LABEL_SIZE  = 11
+const COLLISION_DEFAULT    = true
+const COLLISION_KEY        = 'bordergraph-collision'
+const LEAF_THRESHOLD_DEFAULT = 200  // km²
+const HIDE_SMALL_LEAFS_DEFAULT = true
 
 function nodeRadius(area: number): number {
   return Math.sqrt(Math.max(area, 1) / 4) * K_SCALE
@@ -59,6 +63,19 @@ export default function BorderGraph() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const [error, setError]     = useState<string | null>(null)
   const [loading, setLoading] = useState(true)
+  const [showDetails, setShowDetails] = useState(false)
+  const showDetailsRef = useRef(false)
+  const collisionInit = (() => {
+    try { const v = localStorage.getItem(COLLISION_KEY); return v === null ? COLLISION_DEFAULT : v === 'true' } catch { return COLLISION_DEFAULT }
+  })()
+  const [collisionEnabled, setCollisionEnabled] = useState(collisionInit)
+  const collisionEnabledRef = useRef(collisionInit)
+  const [hideLeaves, setHideLeaves] = useState(HIDE_SMALL_LEAFS_DEFAULT)
+  const hideLeavesRef = useRef(HIDE_SMALL_LEAFS_DEFAULT)
+  const [leafThreshold, setLeafThreshold] = useState(LEAF_THRESHOLD_DEFAULT)
+  const leafThresholdRef = useRef(LEAF_THRESHOLD_DEFAULT)
+  const [leafCount, setLeafCount] = useState(0)
+  const leafSetRef = useRef(new Set<string>())
 
   useEffect(() => {
     if (!canvasRef.current) return
@@ -86,7 +103,7 @@ export default function BorderGraph() {
     let dragMoved = false
     const dirtyIds = new Set<string>()  // nodes displaced by collision during this drag
 
-    const COLL_PADDING  = 0.15  // minimum gap between circle edges (graph units = degrees)
+    const COLL_PADDING  = 0.5   // minimum gap between circle edges (graph units = degrees)
     const COLL_ITERS    = 3     // separation passes per pointer-move frame (keep low for 60fps)
     const LAYOUT_ITERS  = 300   // passes for initial static layout
 
@@ -133,6 +150,22 @@ export default function BorderGraph() {
       }
     }
 
+    function computeLeafSet() {
+      const degree = new Map<string, number>()
+      for (const n of nodes) degree.set(n.id, 0)
+      for (const l of links) {
+        degree.set(l.source.id, (degree.get(l.source.id) ?? 0) + 1)
+        degree.set(l.target.id, (degree.get(l.target.id) ?? 0) + 1)
+      }
+      const thresh = leafThresholdRef.current
+      const s = new Set<string>()
+      for (const n of nodes) {
+        if ((degree.get(n.id) ?? 0) === 1 && n.area < thresh) s.add(n.id)
+      }
+      leafSetRef.current = s
+      setLeafCount(s.size)
+    }
+
     function toScreen(gx: number, gy: number): [number, number] {
       return [
         transform.applyX(gx) * devicePixelRatio,
@@ -151,11 +184,13 @@ export default function BorderGraph() {
       // ── Edges ──────────────────────────────────────────────────────────────
       // Draw center-to-center; circles (drawn after) paint over the inner portions.
       // This way edges are always visible where there is a gap between circles.
+      const hiddenNodes = hideLeavesRef.current ? leafSetRef.current : null
       ctx.save()
-      ctx.globalAlpha = 0.55
-      ctx.strokeStyle = '#94a3b8'
-      ctx.lineWidth   = Math.max(0.5, devicePixelRatio * 0.7)
+      ctx.globalAlpha = 0.85
+      ctx.strokeStyle = '#64748b'
+      ctx.lineWidth   = devicePixelRatio * 0.6
       for (const l of links) {
+        if (hiddenNodes && (hiddenNodes.has(l.source.id) || hiddenNodes.has(l.target.id))) continue
         const [sx, sy] = toScreen(l.source.x, l.source.y)
         const [tx, ty] = toScreen(l.target.x, l.target.y)
         ctx.beginPath()
@@ -168,6 +203,7 @@ export default function BorderGraph() {
       // ── Circles (largest first so small ones render on top) ────────────────
       const sorted = [...nodes].sort((a, b) => b.r - a.r)
       for (const n of sorted) {
+        if (hiddenNodes?.has(n.id)) continue
         const [cx, cy] = toScreen(n.x, n.y)
         const cr = screenR(n.r)
         ctx.beginPath()
@@ -198,12 +234,15 @@ export default function BorderGraph() {
       const fontSize = LABEL_SIZE * devicePixelRatio
       ctx.font = `${fontSize}px ${FONT}`
       for (const n of nodes) {
+        if (hiddenNodes?.has(n.id)) continue
         const [cx, cy] = toScreen(n.x, n.y)
         const cr = screenR(n.r)
-        if (cr < 3 * devicePixelRatio) continue
+        // Skip only if the circle is truly a sub-pixel dot
+        if (cr < 10 * devicePixelRatio) continue
         const label = n.name
         const tw = ctx.measureText(label).width
         if (tw <= cr * 2 * 0.82) {
+          // Label fits inside the circle
           ctx.save()
           ctx.textAlign = 'center'; ctx.textBaseline = 'middle'
           ctx.lineWidth = 3 * devicePixelRatio; ctx.lineJoin = 'round'
@@ -211,8 +250,29 @@ export default function BorderGraph() {
           ctx.strokeText(label, cx, cy)
           ctx.fillStyle = '#1e293b'
           ctx.fillText(label, cx, cy)
+          if (showDetailsRef.current) {
+            const diamKm = (n.r * 2 * 111.32).toFixed(0)  // 1° ≈ 111.32 km
+            const areaStr = n.area >= 1e6
+              ? `${(n.area / 1e6).toFixed(2)}M km²`
+              : `${Math.round(n.area).toLocaleString()} km²`
+            const line1 = n.id
+            const line2 = areaStr
+            const line3 = `ø ${diamKm} km`
+            const smallFont = `${fontSize * 0.75}px ${FONT}`
+            ctx.font = smallFont
+            ctx.strokeStyle = 'rgba(255,255,255,0.7)'
+            ctx.fillStyle = '#475569'
+            let dy = cy + fontSize * 0.85
+            for (const line of [line1, line2, line3]) {
+              ctx.strokeText(line, cx, dy)
+              ctx.fillText(line, cx, dy)
+              dy += fontSize * 0.85
+            }
+            ctx.font = `${fontSize}px ${FONT}`
+          }
           ctx.restore()
-        } else if (cr >= 6 * devicePixelRatio) {
+        } else {
+          // Label below the circle — always shown when circle is visible
           const ly = cy + cr + fontSize * 0.75
           ctx.save()
           ctx.textAlign = 'center'; ctx.textBaseline = 'top'
@@ -221,6 +281,23 @@ export default function BorderGraph() {
           ctx.strokeText(label, cx, ly)
           ctx.fillStyle = '#1e293b'
           ctx.fillText(label, cx, ly)
+          if (showDetailsRef.current) {
+            const diamKm = (n.r * 2 * 111.32).toFixed(0)
+            const areaStr = n.area >= 1e6
+              ? `${(n.area / 1e6).toFixed(2)}M km²`
+              : `${Math.round(n.area).toLocaleString()} km²`
+            const smallFont = `${fontSize * 0.75}px ${FONT}`
+            ctx.font = smallFont
+            ctx.strokeStyle = 'rgba(255,255,255,0.85)'
+            ctx.fillStyle = '#64748b'
+            let dly = ly + fontSize * 1.0
+            for (const line of [n.id, areaStr, `ø ${diamKm} km`]) {
+              ctx.strokeText(line, cx, dly)
+              ctx.fillText(line, cx, dly)
+              dly += fontSize * 0.85
+            }
+            ctx.font = `${fontSize}px ${FONT}`
+          }
           ctx.restore()
         }
       }
@@ -241,7 +318,7 @@ export default function BorderGraph() {
 
     // ── D3 zoom ────────────────────────────────────────────────────────────────
     const zoom = d3.zoom<HTMLCanvasElement, unknown>()
-      .scaleExtent([0.02, 50])
+      .scaleExtent([0.02, 2000])
       .filter(event => {
         if (dragNode) return false
         if (event.type === 'wheel') return true
@@ -268,7 +345,7 @@ export default function BorderGraph() {
         const [gx, gy] = transform.invert([e.offsetX, e.offsetY])
         dragNode.x = gx
         dragNode.y = -gy  // invert back: canvas y → lat
-        resolveCollisions(dragNode)
+        if (collisionEnabledRef.current) resolveCollisions(dragNode)
         draw()
         return
       }
@@ -303,6 +380,16 @@ export default function BorderGraph() {
     canvas.addEventListener('pointerdown', onPointerDown)
     canvas.addEventListener('pointermove', onPointerMove)
     canvas.addEventListener('pointerup',   onPointerUp)
+    const onRedraw = () => draw()
+    canvas.addEventListener('redraw', onRedraw)
+    const onRunCollision = () => { resolveCollisions(undefined, LAYOUT_ITERS); draw() }
+    canvas.addEventListener('run-collision', onRunCollision)
+    const onThresholdChange = (e: Event) => {
+      leafThresholdRef.current = (e as CustomEvent<number>).detail
+      computeLeafSet()
+      draw()
+    }
+    canvas.addEventListener('threshold-change', onThresholdChange as EventListener)
 
     // ── Fetch ──────────────────────────────────────────────────────────────────
     fetch('/data/countries.json')
@@ -322,10 +409,12 @@ export default function BorderGraph() {
           .filter(l => nodeMap.has(l.source) && nodeMap.has(l.target))
           .map(l => ({ source: nodeMap.get(l.source)!, target: nodeMap.get(l.target)! }))
 
+        computeLeafSet()
+
         // Initial static layout: separate all overlapping circles.
         // Nodes that were manually saved keep their position as a soft anchor —
         // they still participate in collision but are not pinned.
-        resolveCollisions(undefined, LAYOUT_ITERS)
+        if (collisionEnabledRef.current) resolveCollisions(undefined, LAYOUT_ITERS)
 
         // Always fit all nodes into view — camera needs a valid transform regardless
         // of whether some positions were saved. Without this, saved-but-no-fit
@@ -352,6 +441,9 @@ export default function BorderGraph() {
       canvas.removeEventListener('pointerdown', onPointerDown)
       canvas.removeEventListener('pointermove', onPointerMove)
       canvas.removeEventListener('pointerup',   onPointerUp)
+      canvas.removeEventListener('redraw', onRedraw)
+      canvas.removeEventListener('run-collision', onRunCollision)
+      canvas.removeEventListener('threshold-change', onThresholdChange as EventListener)
     }
   }, [])
 
@@ -378,6 +470,85 @@ export default function BorderGraph() {
       >
         Reset layout
       </button>
+
+      <button
+        onClick={() => {
+          const next = !showDetails
+          setShowDetails(next)
+          showDetailsRef.current = next
+          canvasRef.current?.dispatchEvent(new Event('redraw'))
+        }}
+        style={{
+          position: 'absolute', top: 16, right: 130, zIndex: 10,
+          padding: '6px 12px', fontSize: 12, cursor: 'pointer',
+          background: showDetails ? '#1e293b' : '#fff',
+          border: '1px solid #cbd5e1', borderRadius: 6,
+          color: showDetails ? '#fff' : '#475569', fontFamily: FONT,
+        }}
+      >
+        {showDetails ? 'Hide Details' : 'Show Details'}
+      </button>
+
+      <button
+        onClick={() => {
+          const next = !collisionEnabled
+          setCollisionEnabled(next)
+          collisionEnabledRef.current = next
+          try { localStorage.setItem(COLLISION_KEY, String(next)) } catch { /* quota */ }
+          if (next) canvasRef.current?.dispatchEvent(new Event('run-collision'))
+        }}
+        style={{
+          position: 'absolute', top: 16, right: 260, zIndex: 10,
+          padding: '6px 12px', fontSize: 12, cursor: 'pointer',
+          background: collisionEnabled ? '#1e293b' : '#fff',
+          border: '1px solid #cbd5e1', borderRadius: 6,
+          color: collisionEnabled ? '#fff' : '#475569', fontFamily: FONT,
+        }}
+      >
+        {collisionEnabled ? 'Collision: ON' : 'Collision: OFF'}
+      </button>
+
+      <div style={{
+        position: 'absolute', top: 52, right: 16, zIndex: 10,
+        background: '#fff', border: '1px solid #cbd5e1', borderRadius: 6,
+        padding: '8px 12px', fontFamily: FONT, fontSize: 12, color: '#475569',
+        display: 'flex', flexDirection: 'column', gap: 6, minWidth: 220,
+      }}>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 8 }}>
+          <label style={{ display: 'flex', alignItems: 'center', gap: 6, cursor: 'pointer' }}>
+            <input
+              type="checkbox"
+              checked={hideLeaves}
+              onChange={e => {
+                const next = e.target.checked
+                setHideLeaves(next)
+                hideLeavesRef.current = next
+                canvasRef.current?.dispatchEvent(new Event('redraw'))
+              }}
+            />
+            Hide small leaves
+          </label>
+          <span style={{ color: '#94a3b8' }}>{leafCount} territories</span>
+        </div>
+        <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+          <span style={{ whiteSpace: 'nowrap' }}>Threshold:</span>
+          <input
+            type="range"
+            min={1} max={500} step={1}
+            value={leafThreshold}
+            style={{ flex: 1 }}
+            onChange={e => {
+              const val = Number(e.target.value)
+              setLeafThreshold(val)
+              leafThresholdRef.current = val
+              canvasRef.current?.dispatchEvent(new CustomEvent('threshold-change', { detail: val }))
+            }}
+          />
+          <span style={{ whiteSpace: 'nowrap', minWidth: 70, textAlign: 'right' }}>
+            {leafThreshold} km²
+          </span>
+        </div>
+      </div>
 
       {loading && (
         <div style={{
