@@ -14,17 +14,14 @@
     "prepare-data": "npm run geodata && npm run fetch-flags && npm run bundle-flags"
   },
   "dependencies": {
-    "@sigma/edge-curve": "^3.1.0",
-    "@sigma/node-image": "^3.0.0",
-    "graphology": "^0.26.0",
-    "graphology-layout-forceatlas2": "^0.10.1",
+    "d3": "^7.9.0",
     "react": "^19.2.4",
-    "react-dom": "^19.2.4",
-    "sigma": "^3.0.2"
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.4",
     "@turf/turf": "^7.3.4",
+    "@types/d3": "^7.4.3",
     "@types/node": "^24.12.0",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
